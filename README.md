@@ -43,7 +43,7 @@ ROS 2 Humble 환경에서 SLAM, Navigation2, Computer Vision 기술을 융합하
 ### 1. 레포지토리 복제 (Clone)
 ```bash
 cd ~
-git clone [https://github.com/dongmin8350/LIMO_Smart_Sentinel.git](https://github.com/dongmin8350/LIMO_Smart_Sentinel.git)
+git clone https://github.com/dongmin8350/LIMO_Smart_Sentinel.git
 cd LIMO_Smart_Sentinel
 ````
 
