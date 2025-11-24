@@ -57,6 +57,9 @@ cd LIMO_Smart_Sentinel
 ```bash
 # 첫번째 명령어 입력 후 
 sudo bash ./install1.sh
+```
+
+```bash
 # 두번째 명령어 입력
 bash ./install2.sh
 ```
