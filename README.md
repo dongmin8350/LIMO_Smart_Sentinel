@@ -47,7 +47,12 @@ git clone https://github.com/psh030917/LIMO_Smart_Sentinel.git
 cd LIMO_Smart_Sentinel
 ````
 
-### 2\. 자동 설치 스크립트 실행
+### 2. .env파일 수정
+```bash
+.env 파일을 열어서 your_username 부분을 실제 사용자 이름으로 변경 후 저장
+```
+
+### 3\. 자동 설치 스크립트 실행
 
 ```bash
 # 첫번째 명령어 입력 후 
