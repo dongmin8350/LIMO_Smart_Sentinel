@@ -43,15 +43,17 @@ ROS 2 Humble 환경에서 SLAM, Navigation2, Computer Vision 기술을 융합하
 ### 1. 레포지토리 복제 (Clone)
 ```bash
 cd ~
-git clone https://github.com/dongmin8350/LIMO_Smart_Sentinel.git
+git clone https://github.com/psh030917/LIMO_Smart_Sentinel.git
 cd LIMO_Smart_Sentinel
 ````
 
 ### 2\. 자동 설치 스크립트 실행
 
 ```bash
-chmod +x install.sh
-./install.sh
+# 첫번째 명령어 입력 후 
+sudo bash ./install1.sh
+# 두번째 명령어 입력
+bash ./install2.sh
 ```
 
 > **참고:** 스크립트가 실행되면 `~/wego_ws` 워크스페이스를 생성하고, `limo.repos`에 정의된 모든 패키지(Driver, SLAM, Vision)를 다운로드 및 빌드합니다. (약 5\~10분 소요)
