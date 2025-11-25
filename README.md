@@ -1,3 +1,4 @@
+# LIMO Smart Sentinel Project
 # 🤖 LIMO Smart Sentinel (방범 순찰 로봇)
 
 ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue) ![Platform](https://img.shields.io/badge/Platform-LIMO-orange) ![License](https://img.shields.io/badge/License-Apache%202.0-green)
@@ -44,8 +45,18 @@ ROS 2 Humble 환경에서 SLAM, Navigation2, Computer Vision 기술을 융합하
 ```bash
 cd ~
 git clone https://github.com/dongmin8350/LIMO_Smart_Sentinel.git
-cd LIMO_Smart_Sentinel
+colcon build
+source install/setup.bash
+
 ````
+
+```bash
+cd ~/LIMO_Smart_Sentinel
+source /opt/ros/humble/setup.bash
+export ROS_LOCALHOST_ONLY=41
+source install/setup.bash
+
+```
 
 ### 2\. 자동 설치 스크립트 실행
 
@@ -53,7 +64,13 @@ cd LIMO_Smart_Sentinel
 chmod +x install.sh
 ./install.sh
 ```
+### 3\. 빌드
 
+```bash
+colcon build
+source install/local_setup.bash
+
+```
 > **참고:** 스크립트가 실행되면 `~/wego_ws` 워크스페이스를 생성하고, `limo.repos`에 정의된 모든 패키지(Driver, SLAM, Vision)를 다운로드 및 빌드합니다. (약 5\~10분 소요)
 
 -----
@@ -69,10 +86,10 @@ chmod +x install.sh
 ros2 launch limo_base limo_base.launch.py
 
 # (2) LiDAR 센서 구동
-ros2 launch ydlidar_ros2_driver ydlidar.launch.py
+ros2 launch ydlidar_ros2_driver ydlidar_launch.py
 
 # (3) 카메라 센서 구동
-ros2 launch orbbec_camera astra_stereo_u3.launch.py
+ros2 launch orbbec_camera astra.launch.py
 ```
 
 ### 2\. 지도 작성 (SLAM)
