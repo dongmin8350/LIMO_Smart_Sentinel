@@ -1,4 +1,3 @@
-# LIMO Smart Sentinel Project
 # 🤖 LIMO Smart Sentinel (방범 순찰 로봇)
 
 ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue) ![Platform](https://img.shields.io/badge/Platform-LIMO-orange) ![License](https://img.shields.io/badge/License-Apache%202.0-green)
@@ -11,7 +10,7 @@ ROS 2 Humble 환경에서 SLAM, Navigation2, Computer Vision 기술을 융합하
 ## 🚀 주요 기능 (Key Features)
 
 1.  **자율 주행 (Autonomous Navigation)**
-    * LiDAR 기반 SLAM (Cartographer/SLAM Toolbox)을 이용한 정밀 지도 작성
+    * LiDAR 기반 SLAM (SLAM Toolbox)을 이용한 정밀 지도 작성
     * Nav2 스택을 활용한 동적 장애물 회피 및 최적 경로 계획
     * 좁은 통로 및 가벽 환경에서의 안정적인 주행
 
@@ -36,87 +35,121 @@ ROS 2 Humble 환경에서 SLAM, Navigation2, Computer Vision 기술을 융합하
 
 ---
 
-## 📦 설치 방법 (Installation)
+## 📦 설치 가이드 (Installation Guide)
 
-이 레포지토리는 **원클릭 자동 설치(Auto-Install)**를 지원합니다.
-복잡한 의존성 설치 과정 없이 아래 스크립트 하나로 개발 환경을 구축할 수 있습니다.
+이 프로젝트는 **`wego_ws`** 워크스페이스를 기준으로 설정되어 있습니다.
+아래 절차를 순서대로 따라 하면 오류 없이 환경을 구축할 수 있습니다.
 
-### 1. 레포지토리 복제 (Clone)
+### 1. 작업 공간 생성 및 필수 드라이버 복제
+기존에 `src` 폴더가 있다면 백업 후 진행하는 것을 권장합니다.
+
 ```bash
-cd ~
-git clone https://github.com/dongmin8350/LIMO_Smart_Sentinel.git
-colcon build
-source install/setup.bash
+# 워크스페이스 생성
+mkdir -p ~/wego_ws/src
+cd ~/wego_ws/src
 
+# (1) LIMO 기본 구동 패키지
+git clone -b humble [https://github.com/agilexrobotics/limo_ros2.git](https://github.com/agilexrobotics/limo_ros2.git)
+
+# (2) LiDAR 드라이버
+git clone -b humble [https://github.com/YDLIDAR/ydlidar_ros2_driver.git](https://github.com/YDLIDAR/ydlidar_ros2_driver.git)
+
+# (3) 카메라 드라이버 (검증된 버전)
+git clone -b v1.5.7 [https://github.com/orbbec/OrbbecSDK_ROS2.git](https://github.com/orbbec/OrbbecSDK_ROS2.git)
+
+# (4) LIMO Smart Sentinel 프로젝트 (본 레포지토리)
+git clone [https://github.com/dongmin8350/LIMO_Smart_Sentinel.git](https://github.com/dongmin8350/LIMO_Smart_Sentinel.git)
 ````
 
+### 2\. 의존성 설치 및 SLAM 툴박스 설정
+
+빌드 시간을 단축하고 오류를 방지하기 위해 `slam_toolbox`는 패키지 관리자로 설치합니다.
+
 ```bash
-cd ~/LIMO_Smart_Sentinel
-source /opt/ros/humble/setup.bash
-export ROS_LOCALHOST_ONLY=41
+cd ~/wego_ws
+
+# 시스템 업데이트 및 SLAM Toolbox 설치
+sudo apt update
+sudo apt install ros-humble-slam-toolbox -y
+
+# 의존성 자동 설치 (시뮬레이션 관련 키 제외)
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y --skip-keys "libgazebo_ros rviz"
+```
+
+### 3\. 빌드 오류 사전 방지 (Critical Fixes)
+
+`limo_car` 패키지 빌드 시 발생하는 누락된 폴더 에러를 방지하기 위해 빈 디렉토리를 미리 생성합니다.
+
+```bash
+mkdir -p ~/wego_ws/src/limo_ros2/limo_car/log
+mkdir -p ~/wego_ws/src/limo_ros2/limo_car/src
+mkdir -p ~/wego_ws/src/limo_ros2/limo_car/worlds
+```
+
+### 4\. 전체 빌드 (Build)
+
+```bash
+cd ~/wego_ws
+# 이전 빌드 캐시 삭제 (Clean Build)
+rm -rf build install log
+
+# 심볼릭 링크 빌드
+colcon build --symlink-install
+
+# 환경 변수 적용
+source ~/.bashrc
 source install/setup.bash
-
 ```
 
-### 2\. 자동 설치 스크립트 실행
+### 5\. USB 권한 설정 (필수)
+
+로봇 하드웨어(MCU)와 LiDAR 접근 권한을 설정합니다. **설정 후 USB를 재연결하거나 재부팅해야 합니다.**
 
 ```bash
-chmod +x install.sh
-./install.sh
+cd ~/wego_ws/src/limo_ros2/limo_base/scripts
+sudo bash create_udev_rules.sh
 ```
-### 3\. 빌드
-
-```bash
-colcon build
-source install/local_setup.bash
-
-```
-> **참고:** 스크립트가 실행되면 `~/wego_ws` 워크스페이스를 생성하고, `limo.repos`에 정의된 모든 패키지(Driver, SLAM, Vision)를 다운로드 및 빌드합니다. (약 5\~10분 소요)
 
 -----
 
 ## 🎮 실행 방법 (Usage)
 
-설치가 완료된 후, 터미널에서 아래 명령어로 로봇을 구동할 수 있습니다.
+설치가 완료되면 터미널을 열고 아래 명령어로 로봇을 구동합니다.
 
-### 1\. 하드웨어 및 센서 구동
+### 1\. 통합 구동 (추천)
+
+모든 센서(Base, LiDAR, Camera)를 한 번에 실행합니다.
 
 ```bash
-# (1) 로봇 베이스 구동
+ros2 launch wego teleop_launch.py
+```
+
+### 2\. 개별 모듈 테스트
+
+문제가 발생할 경우 각 모듈을 따로 실행하여 확인할 수 있습니다.
+
+```bash
+# 로봇 베이스 구동
 ros2 launch limo_base limo_base.launch.py
 
-# (2) LiDAR 센서 구동
+# LiDAR 센서 구동
 ros2 launch ydlidar_ros2_driver ydlidar.launch.py
 
-# (3) 카메라 센서 구동
+# 카메라 센서 구동
 ros2 launch orbbec_camera astra_stereo_u3.launch.py
 ```
 
-### 2\. 지도 작성 (SLAM)
+### 3\. 지도 작성 (SLAM)
 
 ```bash
 ros2 launch slam_toolbox online_async_launch.py
-# 지도 작성 후 저장 명령어:
-# ros2 run nav2_map_server map_saver_cli -f ~/wego_ws/src/LIMO_Smart_Sentinel/maps/my_map
 ```
 
-### 3\. 자율 주행 (Navigation)
+### 4\. 자율 주행 (Navigation)
 
 ```bash
 ros2 launch nav2_bringup bringup_launch.py map:=/home/wego/wego_ws/src/LIMO_Smart_Sentinel/maps/my_map.yaml
-```
-
------
-
-## 📂 프로젝트 구조 (Structure)
-
-```text
-LIMO_Smart_Sentinel/
-├── install.sh        # 원클릭 설치 스크립트 (Environment Setup)
-├── limo.repos        # 의존성 패키지 리스트 (ROS 2 Drivers & Tools)
-├── maps/             # SLAM으로 생성된 지도 파일 (.yaml, .pgm)
-├── README.md         # 프로젝트 설명서
-└── src/              # (추후 업데이트) 방범 로직 소스코드
 ```
 
 -----
@@ -128,7 +161,7 @@ LIMO_Smart_Sentinel/
   * **팀원:** [손민근] - 재난 대응 시스템
   * **팀원:** [한준태] - 야간 주행 시스템, 아키텍처 설계
 
------
+<!-- end list -->
 
 ```
 ```
