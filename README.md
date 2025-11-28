@@ -49,16 +49,16 @@ mkdir -p ~/wego_ws/src
 cd ~/wego_ws/src
 
 # (1) LIMO 기본 구동 패키지
-git clone -b humble [https://github.com/agilexrobotics/limo_ros2.git](https://github.com/agilexrobotics/limo_ros2.git)
+git clone -b humble https://github.com/agilexrobotics/limo_ros2.git
 
 # (2) LiDAR 드라이버
-git clone -b humble [https://github.com/YDLIDAR/ydlidar_ros2_driver.git](https://github.com/YDLIDAR/ydlidar_ros2_driver.git)
+git clone -b humble https://github.com/YDLIDAR/ydlidar_ros2_driver.git
 
 # (3) 카메라 드라이버 (검증된 버전)
-git clone -b v1.5.7 [https://github.com/orbbec/OrbbecSDK_ROS2.git](https://github.com/orbbec/OrbbecSDK_ROS2.git)
+git clone -b v1.5.7 https://github.com/orbbec/OrbbecSDK_ROS2.git
 
 # (4) LIMO Smart Sentinel 프로젝트 (본 레포지토리)
-git clone [https://github.com/dongmin8350/LIMO_Smart_Sentinel.git](https://github.com/dongmin8350/LIMO_Smart_Sentinel.git)
+git clone https://github.com/dongmin8350/LIMO_Smart_Sentinel.git
 ````
 
 ### 2\. 의존성 설치 및 SLAM 툴박스 설정
