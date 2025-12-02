@@ -11,7 +11,7 @@ class FireSensorReader(Node):
         super().__init__("fire_sensor_reader")
 
         # 아두이노 USB 포트 (ls /dev/ttyACM* 로 확인)
-        self.ser = serial.Serial('/dev/ttyACM0', 9600)
+        self.ser = serial.Serial('/dev/ttyACM0', 115200)
 
         self.pub = self.create_publisher(String, "fire_sensor", 10)
         self.timer = self.create_timer(0.2, self.read_sensor)
