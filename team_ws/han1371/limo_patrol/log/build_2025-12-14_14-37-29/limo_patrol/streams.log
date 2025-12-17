@@ -1,0 +1,49 @@
+[1.673s] Invoking command in '/home/wego/team_ws/han1371/limo_patrol': PYTHONPATH=/home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_patrol build --build-base /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build install --record /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/install.log --single-version-externally-managed install_data
+[2.398s] running egg_info
+[2.400s] creating build/limo_patrol/limo_patrol.egg-info
+[2.400s] writing build/limo_patrol/limo_patrol.egg-info/PKG-INFO
+[2.401s] writing dependency_links to build/limo_patrol/limo_patrol.egg-info/dependency_links.txt
+[2.402s] writing entry points to build/limo_patrol/limo_patrol.egg-info/entry_points.txt
+[2.402s] writing requirements to build/limo_patrol/limo_patrol.egg-info/requires.txt
+[2.404s] writing top-level names to build/limo_patrol/limo_patrol.egg-info/top_level.txt
+[2.405s] writing manifest file 'build/limo_patrol/limo_patrol.egg-info/SOURCES.txt'
+[2.410s] reading manifest file 'build/limo_patrol/limo_patrol.egg-info/SOURCES.txt'
+[2.411s] writing manifest file 'build/limo_patrol/limo_patrol.egg-info/SOURCES.txt'
+[2.412s] running build
+[2.412s] running build_py
+[2.412s] creating /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build
+[2.413s] creating /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib
+[2.414s] creating /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol
+[2.414s] copying limo_patrol/object_perception_node.py -> /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol
+[2.414s] copying limo_patrol/__init__.py -> /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol
+[2.414s] copying limo_patrol/waypoint_patrol_node.py -> /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol
+[2.414s] copying limo_patrol/flame_sensor_node.py -> /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol
+[2.415s] running install
+[2.415s] running install_lib
+[2.417s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol
+[2.418s] copying /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol/object_perception_node.py -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol
+[2.418s] copying /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol/__init__.py -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol
+[2.418s] copying /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol/waypoint_patrol_node.py -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol
+[2.418s] copying /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build/lib/limo_patrol/flame_sensor_node.py -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol
+[2.420s] byte-compiling /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol/object_perception_node.py to object_perception_node.cpython-310.pyc
+[2.426s] byte-compiling /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol/__init__.py to __init__.cpython-310.pyc
+[2.427s] byte-compiling /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol/waypoint_patrol_node.py to waypoint_patrol_node.cpython-310.pyc
+[2.429s] byte-compiling /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol/flame_sensor_node.py to flame_sensor_node.cpython-310.pyc
+[2.431s] running install_data
+[2.433s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/ament_index
+[2.433s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/ament_index/resource_index
+[2.434s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/ament_index/resource_index/packages
+[2.434s] copying resource/limo_patrol -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/ament_index/resource_index/packages
+[2.435s] copying package.xml -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/limo_patrol
+[2.436s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/limo_patrol/launch
+[2.437s] copying launch/limo_patrol_full.launch.py -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/limo_patrol/launch
+[2.439s] creating /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/limo_patrol/config
+[2.439s] copying config/waypoints.yaml -> /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/share/limo_patrol/config
+[2.440s] running install_egg_info
+[2.447s] Copying build/limo_patrol/limo_patrol.egg-info to /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages/limo_patrol-0.0.1-py3.10.egg-info
+[2.449s] running install_scripts
+[2.503s] Installing flame_sensor_node script to /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/limo_patrol
+[2.504s] Installing object_perception_node script to /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/limo_patrol
+[2.505s] Installing waypoint_patrol_node script to /home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/limo_patrol
+[2.505s] writing list of installed files to '/home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/install.log'
+[2.606s] Invoked command in '/home/wego/team_ws/han1371/limo_patrol' returned '0': PYTHONPATH=/home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/han1371/limo_patrol/install/limo_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_patrol build --build-base /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/build install --record /home/wego/team_ws/han1371/limo_patrol/build/limo_patrol/install.log --single-version-externally-managed install_data

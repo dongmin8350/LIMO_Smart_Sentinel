@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <!-- 예제 1: 기본 Waypoint 주행 (XML 파라미터로 waypoint 설정) -->
+  <BehaviorTree ID="follow_waypoints_basic">
+    <Sequence>
+      <!-- Waypoint 주행 시작 -->
+      <FollowWaypoints waypoints="1.0,2.0,0.0;3.0,4.0,1.57;5.0,6.0,0.0"
+                       frame_id="map"/>
+      
+      <!-- 모든 waypoint 방문 완료 후 알림 -->
+      <SendTelegramMessage message="모든 waypoint 방문을 완료했습니다!"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- 예제 2: Waypoint 주행 후 특정 작업 수행 -->
+  <BehaviorTree ID="follow_waypoints_with_tasks">
+    <Sequence>
+      <!-- Waypoint 주행 (4개의 waypoint) -->
+      <FollowWaypoints waypoints="0.0,0.0,0.0;2.0,1.0,1.57;4.0,2.0,3.14;6.0,3.0,0.0"
+                       frame_id="map"/>
+      
+      <!-- Waypoint 주행 완료 후 카메라로 주변 확인 -->
+      <ReactiveSequence>
+        <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+        <DisplayYOLODetection/>
+        <Sequence>
+          <IsDetectedSomething target_class="person"
+                               confidence_threshold="0.5"
+                               cooldown_time="5.0"/>
+          <SendTelegramMessage message="Waypoint 주행 완료 후 사람이 감지되었습니다."/>
+          <CaptureScreen/>
+        </Sequence>
+      </ReactiveSequence>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- 예제 3: Waypoint 주행 중 장애물 감지 시 정지 -->
+  <BehaviorTree ID="follow_waypoints_with_obstacle_detection">
+    <ReactiveSequence>
+      <!-- Waypoint 주행 -->
+      <FollowWaypoints waypoints="1.0,1.0,0.0;3.0,3.0,1.57;5.0,5.0,0.0"
+                       frame_id="map"/>
+      
+      <!-- 장애물 감지 시 정지 -->
+      <Sequence>
+        <IsLidarObstacleDetected/>
+        <StopRobot/>
+        <SendTelegramMessage message="Waypoint 주행 중 장애물이 감지되어 정지했습니다."/>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- 예제 4: 복잡한 Waypoint 경로 (많은 waypoint) -->
+  <BehaviorTree ID="follow_waypoints_complex">
+    <Sequence>
+      <!-- 8개의 waypoint로 복잡한 경로 주행 -->
+      <FollowWaypoints waypoints="0.0,0.0,0.0;2.0,0.0,0.0;2.0,2.0,1.57;4.0,2.0,0.0;4.0,4.0,1.57;6.0,4.0,0.0;6.0,6.0,1.57;8.0,6.0,0.0"
+                       frame_id="map"/>
+      
+      <!-- 주행 완료 후 알림 -->
+      <SendTelegramMessage message="복잡한 waypoint 경로 주행을 완료했습니다!"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- 예제 5: Waypoint 주행과 순찰 모드 결합 -->
+  <BehaviorTree ID="follow_waypoints_with_patrol">
+    <Sequence>
+      <!-- 순찰 모드 설정 -->
+      <ManagePatrolMode mode_source="auto"/>
+      
+      <!-- Waypoint 주행 -->
+      <FollowWaypoints waypoints="1.0,1.0,0.0;3.0,1.0,0.0;3.0,3.0,1.57;1.0,3.0,3.14"
+                       frame_id="map"/>
+      
+      <!-- 주행 완료 후 야간 모드 확인 -->
+      <Fallback>
+        <IsNightMode/>
+        <Sequence>
+          <SendTelegramMessage message="Waypoint 주행 완료. 현재는 주간 모드입니다."/>
+        </Sequence>
+      </Fallback>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="FollowWaypoints"
+            editable="true">
+      <input_port name="waypoints"
+                  default=""/>
+      <input_port name="frame_id"
+                  default="map"/>
+      <input_port name="action_name"
+                  default="/navigate_to_pose"/>
+    </Action>
+    <Action ID="MoveToCoordinate"
+            editable="true">
+      <input_port name="x"
+                  default="0.0"/>
+      <input_port name="y"
+                  default="0.0"/>
+      <input_port name="z"
+                  default="0.0"/>
+      <input_port name="yaw"
+                  default="0.0"/>
+      <input_port name="frame_id"
+                  default="map"/>
+    </Action>
+    <Action ID="CaptureCameraImage"
+            editable="true">
+      <input_port name="camera_topic"
+                  default="/camera/color/image_raw"/>
+    </Action>
+    <Action ID="DisplayYOLODetection"
+            editable="true"/>
+    <Action ID="CaptureScreen"
+            editable="true"/>
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="사람이 감지되었습니다."/>
+      <input_port name="interval"
+                  default="0.0"/>
+    </Action>
+    <Action ID="StopRobot"
+            editable="true">
+      <input_port name="cmd_vel_topic"
+                  default="/cmd_vel"/>
+    </Action>
+    <Action ID="ManagePatrolMode"
+            editable="true">
+      <input_port name="mode_source"
+                  default="auto"/>
+    </Action>
+    <Condition ID="IsDetectedSomething"
+               editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="confidence_threshold"
+                  default="0.5"/>
+      <input_port name="cooldown_time"
+                  default="10.0"/>
+      <input_port name="iou_threshold"
+                  default="0.3"/>
+    </Condition>
+    <Condition ID="IsLidarObstacleDetected"
+               editable="true"/>
+    <Condition ID="IsNightMode"
+               editable="true">
+      <input_port name="patrol_mode_topic"
+                  default="/patrol_mode"/>
+      <input_port name="target_mode"
+                  default="NIGHT"/>
+    </Condition>
+  </TreeNodesModel>
+
+</root>
+

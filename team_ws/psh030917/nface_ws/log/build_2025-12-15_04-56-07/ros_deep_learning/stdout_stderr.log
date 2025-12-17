@@ -1,0 +1,118 @@
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") 
+[0mdetected ROS_DISTRO=ROS_HUMBLE[0m
+[33mCMake Warning at CMakeLists.txt:27 (find_package):
+  Could not find a configuration file for package "VPI" that is compatible
+  with requested version "2.0".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/lib/cmake/vpi3/vpi-config.cmake, version: 3.2.4
+    /lib/cmake/vpi3/vpi-config.cmake, version: 3.2.4
+
+
+[0m
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0mdetected ROS2 (ament_cmake)[0m
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning
+[  5%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o[0m
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.cpp:23[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/video_source.dir/build.make:90: CMakeFiles/video_source.dir/src/image_converter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 35%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o[0m
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.cpp:23[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/detectnet.dir/build.make:90: CMakeFiles/detectnet.dir/src/image_converter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 40%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o[0m
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.cpp:23[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/imagenet.dir/build.make:90: CMakeFiles/imagenet.dir/src/image_converter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 45%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o[0m
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.cpp:23[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/segnet.dir/build.make:90: CMakeFiles/segnet.dir/src/image_converter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o[0m
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.cpp:23[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/video_output.dir/build.make:90: CMakeFiles/video_output.dir/src/image_converter.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_video_output.cpp:24[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:24[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:24[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_video_source.cpp:24[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+In file included from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:24[m[K:
+[01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/image_converter.h:26:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+   26 | #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/imagenet.dir/build.make:76: CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/video_output.dir/build.make:76: CMakeFiles/video_output.dir/src/node_video_output.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/segnet.dir/build.make:76: CMakeFiles/segnet.dir/src/node_segnet.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/segnet.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/detectnet.dir/build.make:76: CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/video_output.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/detectnet.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/imagenet.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/video_source.dir/build.make:76: CMakeFiles/video_source.dir/src/node_video_source.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/video_source.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

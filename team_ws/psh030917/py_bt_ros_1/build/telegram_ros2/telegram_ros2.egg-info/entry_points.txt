@@ -1,0 +1,3 @@
+[console_scripts]
+telegram_ros2_bridge = telegram_ros2.telegram_ros2_bridge:main
+

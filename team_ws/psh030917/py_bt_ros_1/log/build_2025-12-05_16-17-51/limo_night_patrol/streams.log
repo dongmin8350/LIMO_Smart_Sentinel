@@ -1,0 +1,78 @@
+[2.551s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data
+[3.413s] running egg_info
+[3.415s] creating ../../build/limo_night_patrol/limo_night_patrol.egg-info
+[3.417s] writing ../../build/limo_night_patrol/limo_night_patrol.egg-info/PKG-INFO
+[3.418s] writing dependency_links to ../../build/limo_night_patrol/limo_night_patrol.egg-info/dependency_links.txt
+[3.419s] writing entry points to ../../build/limo_night_patrol/limo_night_patrol.egg-info/entry_points.txt
+[3.419s] writing requirements to ../../build/limo_night_patrol/limo_night_patrol.egg-info/requires.txt
+[3.420s] writing top-level names to ../../build/limo_night_patrol/limo_night_patrol.egg-info/top_level.txt
+[3.420s] writing manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+[3.426s] reading manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+[3.428s] writing manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+[3.428s] running build
+[3.428s] running build_py
+[3.429s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build
+[3.429s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib
+[3.429s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.430s] copying limo_night_patrol/event_handler_night_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.430s] copying limo_night_patrol/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.430s] copying limo_night_patrol/dummy_safety_mux_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.430s] copying limo_night_patrol/dummy_rgb_publisher_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.430s] copying limo_night_patrol/dummy_navigator_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.431s] copying limo_night_patrol/depth_obstacle_detector_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.431s] copying limo_night_patrol/camera_capture_server_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.435s] copying limo_night_patrol/patrol_manager_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.435s] copying limo_night_patrol/night_intruder_detector_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.436s] copying limo_night_patrol/dummy_limo_base_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.436s] copying limo_night_patrol/mode_manager_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol
+[3.452s] running install
+[3.452s] running install_lib
+[3.453s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.453s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/event_handler_night_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.453s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.454s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/dummy_safety_mux_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.454s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/dummy_rgb_publisher_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.454s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/dummy_navigator_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.454s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/depth_obstacle_detector_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.454s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/camera_capture_server_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.456s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/patrol_manager_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.456s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/night_intruder_detector_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.456s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/dummy_limo_base_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.456s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build/lib/limo_night_patrol/mode_manager_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol
+[3.457s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/event_handler_night_node.py to event_handler_night_node.cpython-310.pyc
+[3.457s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/__init__.py to __init__.cpython-310.pyc
+[3.458s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/dummy_safety_mux_node.py to dummy_safety_mux_node.cpython-310.pyc
+[3.458s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/dummy_rgb_publisher_node.py to dummy_rgb_publisher_node.cpython-310.pyc
+[3.458s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/dummy_navigator_node.py to dummy_navigator_node.cpython-310.pyc
+[3.459s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/depth_obstacle_detector_node.py to depth_obstacle_detector_node.cpython-310.pyc
+[3.459s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/camera_capture_server_node.py to camera_capture_server_node.cpython-310.pyc
+[3.459s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/patrol_manager_node.py to patrol_manager_node.cpython-310.pyc
+[3.461s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/night_intruder_detector_node.py to night_intruder_detector_node.cpython-310.pyc
+[3.461s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/dummy_limo_base_node.py to dummy_limo_base_node.cpython-310.pyc
+[3.462s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol/mode_manager_node.py to mode_manager_node.cpython-310.pyc
+[3.466s] running install_data
+[3.466s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share
+[3.466s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/ament_index
+[3.467s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/ament_index/resource_index
+[3.467s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/ament_index/resource_index/packages
+[3.467s] copying resource/limo_night_patrol -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/ament_index/resource_index/packages
+[3.467s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol
+[3.467s] copying package.xml -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol
+[3.467s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/launch
+[3.477s] copying launch/night_patrol.launch.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/launch
+[3.478s] copying launch/night_patrol_sim.launch.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/launch
+[3.478s] running install_egg_info
+[3.478s] Copying ../../build/limo_night_patrol/limo_night_patrol.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol-0.0.1-py3.10.egg-info
+[3.478s] running install_scripts
+[3.536s] Installing camera_capture_server script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.537s] Installing depth_obstacle_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.537s] Installing dummy_limo_base script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.538s] Installing dummy_navigator script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.539s] Installing dummy_rgb_pub script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.539s] Installing dummy_safety_mux script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.539s] Installing event_handler_night script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.539s] Installing mode_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.540s] Installing night_intruder_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.540s] Installing patrol_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.541s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log'
+[3.666s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data

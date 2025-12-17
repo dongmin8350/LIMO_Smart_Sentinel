@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1f965700288466cd1a9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros_deep_learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "detectnet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-detectnet-08c87c7d3e33ef7180e3.json",
+					"name" : "detectnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imagenet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imagenet-2fb3120503a2403b31fc.json",
+					"name" : "imagenet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_deep_learning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_deep_learning_uninstall-c636cd16c5fef19d8817.json",
+					"name" : "ros_deep_learning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segnet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segnet-5d16a12122e3ce0893da.json",
+					"name" : "segnet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-49118b2d97dfcea9c2d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_output::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_output-71920b55d478570b88e1.json",
+					"name" : "video_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_source::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_source-abbe3108d4d493bfc04b.json",
+					"name" : "video_source",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning",
+		"source" : "/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

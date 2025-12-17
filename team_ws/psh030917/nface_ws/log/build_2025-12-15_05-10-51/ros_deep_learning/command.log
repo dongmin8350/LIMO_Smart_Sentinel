@@ -1,0 +1,2 @@
+Invoking command in '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning -- -j6 -l6
+Invoked command in '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning -- -j6 -l6

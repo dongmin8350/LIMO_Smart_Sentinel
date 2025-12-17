@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from instant_messaging_interfaces/msg/Options.msg
+// generated code does not contain a copyright notice
+
+
+module instant_messaging_interfaces {
+  module msg {
+    struct Options {
+      string question;
+
+      sequence<string> options;
+    };
+  };
+};

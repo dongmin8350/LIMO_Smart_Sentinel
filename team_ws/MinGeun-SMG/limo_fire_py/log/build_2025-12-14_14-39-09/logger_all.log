@@ -1,0 +1,88 @@
+[0.358s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'limo_fire_py']
+[0.358s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['limo_fire_py'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb1804670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb19e7c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb19e7c70>>, mixin_verb=('build',))
+[0.717s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.717s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.717s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.718s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.718s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.718s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.718s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.755s] colcon.colcon_core.package_identification DEBUG Package '.' with type 'ros.ament_python' and name 'limo_fire_py'
+[0.755s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.756s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.756s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.756s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.756s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.802s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.802s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[0.807s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_args' from command line to 'None'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_target' from command line to 'None'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] colcon.colcon_core.verb Level 5 set package 'limo_fire_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.812s] colcon.colcon_core.verb DEBUG Building package 'limo_fire_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py', 'merge_install': False, 'path': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main', 'symlink_install': False, 'test_result_base': None}
+[0.848s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.853s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.854s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main' with build type 'ament_python'
+[0.854s] colcon.colcon_core.shell Level 1 create_environment_hook('limo_fire_py', 'ament_prefix_path')
+[0.861s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.861s] colcon.colcon_core.shell INFO Creating environment hook '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.ps1'
+[0.863s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.dsv'
+[0.864s] colcon.colcon_core.shell INFO Creating environment hook '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.sh'
+[0.866s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.457s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main'
+[1.459s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.460s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[2.360s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main': PYTHONPATH=/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_fire_py build --build-base /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build install --record /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[3.136s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main' returned '0': PYTHONPATH=/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_fire_py build --build-base /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build install --record /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[3.145s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py' for CMake module files
+[3.147s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py' for CMake config files
+[3.149s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib'
+[3.150s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/bin'
+[3.150s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/pkgconfig/limo_fire_py.pc'
+[3.151s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages'
+[3.151s] colcon.colcon_core.shell Level 1 create_environment_hook('limo_fire_py', 'pythonpath')
+[3.153s] colcon.colcon_core.shell INFO Creating environment hook '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.ps1'
+[3.154s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.dsv'
+[3.156s] colcon.colcon_core.shell INFO Creating environment hook '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.sh'
+[3.158s] colcon.colcon_core.environment Level 1 checking '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/bin'
+[3.158s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(limo_fire_py)
+[3.159s] colcon.colcon_core.shell INFO Creating package script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/package.ps1'
+[3.162s] colcon.colcon_core.shell INFO Creating package descriptor '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/package.dsv'
+[3.164s] colcon.colcon_core.shell INFO Creating package script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/package.sh'
+[3.170s] colcon.colcon_core.shell INFO Creating package script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/package.bash'
+[3.173s] colcon.colcon_core.shell INFO Creating package script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/limo_fire_py/package.zsh'
+[3.175s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/share/colcon-core/packages/limo_fire_py)
+[3.176s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[3.177s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[3.178s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[3.178s] colcon.colcon_core.event_reactor DEBUG joining thread
+[3.192s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.192s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.192s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[3.223s] colcon.colcon_core.event_reactor DEBUG joined thread
+[3.225s] colcon.colcon_core.shell INFO Creating prefix script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/local_setup.ps1'
+[3.229s] colcon.colcon_core.shell INFO Creating prefix util module '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/_local_setup_util_ps1.py'
+[3.233s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/setup.ps1'
+[3.235s] colcon.colcon_core.shell INFO Creating prefix script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/local_setup.sh'
+[3.238s] colcon.colcon_core.shell INFO Creating prefix util module '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/_local_setup_util_sh.py'
+[3.242s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/setup.sh'
+[3.245s] colcon.colcon_core.shell INFO Creating prefix script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/local_setup.bash'
+[3.248s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/setup.bash'
+[3.251s] colcon.colcon_core.shell INFO Creating prefix script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/local_setup.zsh'
+[3.253s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/setup.zsh'

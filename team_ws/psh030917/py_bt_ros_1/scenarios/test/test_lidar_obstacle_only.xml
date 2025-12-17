@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="test_lidar_obstacle_only">
+    <ReactiveSequence>
+      <!-- LiDAR 장애물 감지 확인 -->
+      <IsLidarObstacleDetected obstacle_topic="/patrol/obstacle_detected"/>
+      
+      <!-- 장애물 감지 시 처리 -->
+      <Sequence>
+        <StopRobot cmd_vel_topic="/cmd_vel"/>
+        <SendTelegramMessage message="⚠️ LiDAR 장애물 감지! 로봇 정지 중"
+                           interval="5.0"/>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Condition ID="IsLidarObstacleDetected"
+               editable="true"/>
+    
+    <Action ID="StopRobot"
+            editable="true">
+      <input_port name="cmd_vel_topic"
+                  default="/cmd_vel"/>
+    </Action>
+    
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="사람이 감지되었습니다."/>
+      <input_port name="interval"
+                  default="3.0"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
+

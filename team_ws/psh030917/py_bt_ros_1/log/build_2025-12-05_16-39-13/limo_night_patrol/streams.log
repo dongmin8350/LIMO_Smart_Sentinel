@@ -1,0 +1,30 @@
+[2.909s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data
+[3.464s] running egg_info
+[3.466s] writing ../../build/limo_night_patrol/limo_night_patrol.egg-info/PKG-INFO
+[3.471s] writing dependency_links to ../../build/limo_night_patrol/limo_night_patrol.egg-info/dependency_links.txt
+[3.472s] writing entry points to ../../build/limo_night_patrol/limo_night_patrol.egg-info/entry_points.txt
+[3.472s] writing requirements to ../../build/limo_night_patrol/limo_night_patrol.egg-info/requires.txt
+[3.472s] writing top-level names to ../../build/limo_night_patrol/limo_night_patrol.egg-info/top_level.txt
+[3.477s] reading manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+[3.478s] writing manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+[3.478s] running build
+[3.478s] running build_py
+[3.481s] running install
+[3.481s] running install_lib
+[3.484s] running install_data
+[3.485s] running install_egg_info
+[3.489s] removing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol-0.0.1-py3.10.egg-info' (and everything under it)
+[3.490s] Copying ../../build/limo_night_patrol/limo_night_patrol.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol-0.0.1-py3.10.egg-info
+[3.492s] running install_scripts
+[3.541s] Installing camera_capture_server script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.542s] Installing depth_obstacle_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.543s] Installing dummy_limo_base script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.544s] Installing dummy_navigator script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.544s] Installing dummy_rgb_pub script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.544s] Installing dummy_safety_mux script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.544s] Installing event_handler_night script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.544s] Installing mode_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.545s] Installing night_intruder_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.545s] Installing patrol_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+[3.545s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log'
+[3.644s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data

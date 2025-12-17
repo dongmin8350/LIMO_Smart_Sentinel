@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (limo_fire_py) JobQueued: {'identifier': 'limo_fire_py', 'dependencies': OrderedDict()}
+[0.000796] (limo_fire_py) JobStarted: {'identifier': 'limo_fire_py'}
+[0.099365] (-) TimerEvent: {}
+[0.199704] (-) TimerEvent: {}
+[0.300027] (-) TimerEvent: {}
+[0.400368] (-) TimerEvent: {}
+[0.500698] (-) TimerEvent: {}
+[0.601033] (-) TimerEvent: {}
+[0.701363] (-) TimerEvent: {}
+[0.801687] (-) TimerEvent: {}
+[0.902017] (-) TimerEvent: {}
+[1.002348] (-) TimerEvent: {}
+[1.078380] (limo_fire_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/limo_fire_py', 'build', '--build-base', '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build', 'install', '--record', '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main', 'env': {'VSCODE_CWD': '/home/wego', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'wego', 'SSH_CLIENT': '10.178.188.96 39468 22', 'LC_TIME': 'en_US.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/wego/.cursor-server/bin/60d42bed27e5775c43ec0428d8c653c49e58e260/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'BROWSER': '/home/wego/.cursor-server/bin/60d42bed27e5775c43ec0428d8c653c49e58e260/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wego', 'OLDPWD': '/home/wego', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c1da6591-0b56-4f23-986e-7887e6293e89.sock', 'JETSON_L4T': '36.4.7', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'LOGNAME': 'wego', 'FORCE_COLOR': '0', '_': '/usr/bin/colcon', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1422325081170', 'VSCODE_HANDLES_SIGPIPE': 'true', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'XDG_SESSION_ID': '4', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/wego/.cursor-server/bin/60d42bed27e5775c43ec0428d8c653c49e58e260/bin/remote-cli:/home/wego/.cursor-server/bin/60d42bed27e5775c43ec0428d8c653c49e58e260/bin/remote-cli:/home/wego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'VSCODE_AGENT_FOLDER': '/home/wego/.cursor-server', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CURSOR_AGENT': '1', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'JETSON_SOC': 'tegra234', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.178.188.96 39468 10.178.188.92 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', '_ZO_DOCTOR': '0', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3767-0003', 'PYTHONPATH': '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages:'}, 'shell': False}
+[1.102486] (-) TimerEvent: {}
+[1.202803] (-) TimerEvent: {}
+[1.303134] (-) TimerEvent: {}
+[1.403466] (-) TimerEvent: {}
+[1.493075] (limo_fire_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.494212] (limo_fire_py) StdoutLine: {'line': b'writing build/limo_fire_py/limo_fire_py.egg-info/PKG-INFO\n'}
+[1.494701] (limo_fire_py) StdoutLine: {'line': b'writing dependency_links to build/limo_fire_py/limo_fire_py.egg-info/dependency_links.txt\n'}
+[1.495080] (limo_fire_py) StdoutLine: {'line': b'writing entry points to build/limo_fire_py/limo_fire_py.egg-info/entry_points.txt\n'}
+[1.495350] (limo_fire_py) StdoutLine: {'line': b'writing requirements to build/limo_fire_py/limo_fire_py.egg-info/requires.txt\n'}
+[1.495623] (limo_fire_py) StdoutLine: {'line': b'writing top-level names to build/limo_fire_py/limo_fire_py.egg-info/top_level.txt\n'}
+[1.499409] (limo_fire_py) StdoutLine: {'line': b"reading manifest file 'build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'\n"}
+[1.501572] (limo_fire_py) StdoutLine: {'line': b"writing manifest file 'build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'\n"}
+[1.501893] (limo_fire_py) StdoutLine: {'line': b'running build\n'}
+[1.502025] (limo_fire_py) StdoutLine: {'line': b'running build_py\n'}
+[1.502623] (limo_fire_py) StdoutLine: {'line': b'copying limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build/lib/limo_fire_py\n'}
+[1.503244] (limo_fire_py) StdoutLine: {'line': b'running install\n'}
+[1.503513] (-) TimerEvent: {}
+[1.503886] (limo_fire_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.505578] (limo_fire_py) StdoutLine: {'line': b'copying /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build/lib/limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py\n'}
+[1.506972] (limo_fire_py) StdoutLine: {'line': b'byte-compiling /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_sensor_reader.py to fire_sensor_reader.cpython-310.pyc\n'}
+[1.508767] (limo_fire_py) StdoutLine: {'line': b'running install_data\n'}
+[1.509175] (limo_fire_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.512760] (limo_fire_py) StdoutLine: {'line': b"removing '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.514642] (limo_fire_py) StdoutLine: {'line': b'Copying build/limo_fire_py/limo_fire_py.egg-info to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info\n'}
+[1.515871] (limo_fire_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.556259] (limo_fire_py) StdoutLine: {'line': b'Installing bt_runner script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.556953] (limo_fire_py) StdoutLine: {'line': b'Installing bt_visualizer script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.557335] (limo_fire_py) StdoutLine: {'line': b'Installing fire_alarm_notifier script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.557800] (limo_fire_py) StdoutLine: {'line': b'Installing fire_safety_controller script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.557936] (limo_fire_py) StdoutLine: {'line': b'Installing fire_sensor_publisher script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.558054] (limo_fire_py) StdoutLine: {'line': b'Installing fire_sensor_reader script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.558166] (limo_fire_py) StdoutLine: {'line': b'Installing pygame_visualizer script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py\n'}
+[1.558615] (limo_fire_py) StdoutLine: {'line': b"writing list of installed files to '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log'\n"}
+[1.603695] (-) TimerEvent: {}
+[1.623507] (limo_fire_py) CommandEnded: {'returncode': 0}
+[1.656233] (limo_fire_py) JobEnded: {'identifier': 'limo_fire_py', 'rc': 0}
+[1.658245] (-) EventReactorShutdown: {}

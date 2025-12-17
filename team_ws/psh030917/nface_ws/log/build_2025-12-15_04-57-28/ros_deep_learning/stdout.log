@@ -1,0 +1,74 @@
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning
+[ 20%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/ros_compat.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/ros_compat.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/ros_compat.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable video_output[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/ros_compat.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable video_source[0m
+[ 80%] Built target video_output
+[ 85%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/ros_compat.cpp.o[0m
+[ 85%] Built target video_source
+[ 90%] [32m[1mLinking CXX executable segnet[0m
+[ 90%] Built target segnet
+[ 95%] [32m[1mLinking CXX executable detectnet[0m
+[ 95%] Built target detectnet
+[100%] [32m[1mLinking CXX executable imagenet[0m
+[100%] Built target imagenet
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/segnet
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_source
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_output
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.xml

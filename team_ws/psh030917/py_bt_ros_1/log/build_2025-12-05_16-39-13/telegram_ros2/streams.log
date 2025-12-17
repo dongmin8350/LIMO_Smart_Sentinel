@@ -1,0 +1,22 @@
+[2.105s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data
+[2.649s] running egg_info
+[2.650s] writing ../../build/telegram_ros2/telegram_ros2.egg-info/PKG-INFO
+[2.651s] writing dependency_links to ../../build/telegram_ros2/telegram_ros2.egg-info/dependency_links.txt
+[2.652s] writing entry points to ../../build/telegram_ros2/telegram_ros2.egg-info/entry_points.txt
+[2.652s] writing requirements to ../../build/telegram_ros2/telegram_ros2.egg-info/requires.txt
+[2.652s] writing top-level names to ../../build/telegram_ros2/telegram_ros2.egg-info/top_level.txt
+[2.656s] reading manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[2.657s] adding license file 'LICENSE'
+[2.658s] writing manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[2.658s] running build
+[2.659s] running build_py
+[2.659s] running install
+[2.660s] running install_lib
+[2.662s] running install_data
+[2.663s] running install_egg_info
+[2.667s] removing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.668s] Copying ../../build/telegram_ros2/telegram_ros2.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2-0.0.0-py3.10.egg-info
+[2.671s] running install_scripts
+[2.715s] Installing telegram_ros2_bridge script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/telegram_ros2
+[2.716s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/install.log'
+[2.795s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data

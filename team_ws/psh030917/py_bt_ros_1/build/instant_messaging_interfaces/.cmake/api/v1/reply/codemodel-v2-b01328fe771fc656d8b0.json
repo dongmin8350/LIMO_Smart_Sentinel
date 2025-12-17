@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-41762502aa743b5fe3e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "instant_messaging_interfaces__py",
+					"jsonFile" : "directory-instant_messaging_interfaces__py-f04724f699aa77efc146.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces/instant_messaging_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "instant_messaging_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_instant_messaging_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_instant_messaging_interfaces_egg-4f0bfaa2439dbf75fdd7.json",
+					"name" : "ament_cmake_python_build_instant_messaging_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_instant_messaging_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_instant_messaging_interfaces-43871c39e4aef4087665.json",
+					"name" : "ament_cmake_python_copy_instant_messaging_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces-c68048ca199195936937.json",
+					"name" : "instant_messaging_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__cpp-4979900af1277b718ade.json",
+					"name" : "instant_messaging_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "instant_messaging_interfaces__py::@201996c17f46c2c50260",
+					"jsonFile" : "target-instant_messaging_interfaces__py-6889419a58412c463ceb.json",
+					"name" : "instant_messaging_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_generator_c-3df9b9e4d0bacecb70e6.json",
+					"name" : "instant_messaging_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_generator_py-d30d1d4417ed47eadee0.json",
+					"name" : "instant_messaging_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_c-e8edc376e65764ba5ab5.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_c__pyext-9747d8f92f2ceb63a1b9.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_cpp-05b82b542be923a1d585.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_fastrtps_c-294ea4d825f43009dc15.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_fastrtps_c__pyext-bf426fefc1b82f03b3a5.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp-ab0070da3cd1749d326b.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_introspection_c-962af6af29a148e39510.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_introspection_c__pyext-fdb81562db51f5b69eb0.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces__rosidl_typesupport_introspection_cpp-3a1d9f960fe95448549b.json",
+					"name" : "instant_messaging_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instant_messaging_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instant_messaging_interfaces_uninstall-8d8ec2b9d9b4c99ae218.json",
+					"name" : "instant_messaging_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c87b2bd284cc3738fd2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces",
+		"source" : "/home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
