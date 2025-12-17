@@ -1,4 +1,0 @@
-[console_scripts]
-mode_manager_node = limo_patrol.mode_manager_node:main
-object_perception_lidar_node = limo_patrol.object_perception_lidar_node:main
-

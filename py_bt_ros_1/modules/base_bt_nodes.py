@@ -18,6 +18,7 @@ class BTNodeList:
     ]
 
     DECORATOR_NODES = [
+        'Repeat',
     ]
 
 # Status enumeration for behavior tree nodes
@@ -257,4 +258,75 @@ class AlwaysSuccess(SyncCondition):
 
     def _check(self, agent, blackboard):
         return Status.SUCCESS
+
+
+# Repeat decorator node: Repeats child node execution for specified number of cycles
+class Repeat(Node):
+    def __init__(self, name, child, num_cycles=-1):
+        """
+        num_cycles: number of times to repeat (-1 means infinite)
+        """
+        super().__init__(name)
+        self.child = child
+        self.num_cycles = int(num_cycles)  # -1 means infinite
+        self.current_cycle = 0
+        self.type = "Decorator"
+
+    async def run(self, agent, blackboard):
+        # Infinite repeat (num_cycles == -1)
+        if self.num_cycles == -1:
+            status = await self.child.run(agent, blackboard)
+            self.status = status
+            
+            # If child succeeds, restart it for next cycle
+            if status == Status.SUCCESS:
+                self.child.reset()
+                return Status.RUNNING  # Keep running for infinite repeat
+            elif status == Status.FAILURE:
+                # On failure, reset and continue (or return FAILURE based on desired behavior)
+                self.child.reset()
+                return Status.RUNNING  # Continue repeating even on failure
+            else:  # RUNNING
+                return Status.RUNNING
+        
+        # Finite repeat
+        else:
+            # Check if we've completed all cycles
+            if self.current_cycle >= self.num_cycles:
+                self.current_cycle = 0
+                self.child.reset()
+                self.status = Status.SUCCESS
+                return Status.SUCCESS
+            
+            # Run child
+            status = await self.child.run(agent, blackboard)
+            self.status = status
+            
+            if status == Status.SUCCESS:
+                self.current_cycle += 1
+                self.child.reset()
+                # If more cycles remain, continue running
+                if self.current_cycle < self.num_cycles:
+                    return Status.RUNNING
+                else:
+                    # All cycles completed
+                    self.current_cycle = 0
+                    return Status.SUCCESS
+            elif status == Status.FAILURE:
+                # On failure, reset cycle counter and return FAILURE
+                self.current_cycle = 0
+                self.child.reset()
+                return Status.FAILURE
+            else:  # RUNNING
+                return Status.RUNNING
+
+    def halt(self):
+        self.current_cycle = 0
+        self.child.halt()
+
+    def reset(self):
+        super().reset()
+        self.current_cycle = 0
+        if hasattr(self, "child"):
+            self.child.reset()
     

@@ -6,7 +6,9 @@
       <DisplayYOLODetection/>
       <Sequence>
         <IsDetectedSomething target_class="person"
-                             confidence_threshold="0.5"/>
+                             confidence_threshold="0.5"
+                             cooldown_time="10.0"
+                             iou_threshold="0.3"/>
         <SendTelegramMessage message="사람이 감지되었습니다."
                              interval="5.0"/>
         <CaptureScreen/>
@@ -42,6 +44,33 @@
                   default="사람이 감지되었습니다."/>
       <input_port name="interval"
                   default="3.0"/>
+    </Action>
+    <Condition ID="IsObstacleDetected"
+               editable="true">
+      <input_port name="obstacle_topic"
+                  default="/depth_obstacles"/>
+    </Condition>
+    <Condition ID="IsNightMode"
+               editable="true">
+      <input_port name="patrol_mode_topic"
+                  default="/patrol_mode"/>
+      <input_port name="target_mode"
+                  default="NIGHT"/>
+    </Condition>
+    <Action ID="MoveToCoordinate"
+            editable="true">
+      <input_port name="x"
+                  default="0.0"/>
+      <input_port name="y"
+                  default="0.0"/>
+      <input_port name="z"
+                  default="0.0"/>
+      <input_port name="yaw"
+                  default="0.0"/>
+      <input_port name="frame_id"
+                  default="map"/>
+      <input_port name="action_name"
+                  default="/navigate_to_pose"/>
     </Action>
   </TreeNodesModel>
 

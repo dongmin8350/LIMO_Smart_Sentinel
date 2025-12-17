@@ -1,5 +1,0 @@
-  File "/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_sensor_reader.py", line 97
-    except UnicodeDecodeError as e:
-    ^^^^^^
-SyntaxError: invalid syntax
-

@@ -1,1 +1,0 @@
-/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning/ament_cmake_core/ros_deep_learningConfig-version.cmake
