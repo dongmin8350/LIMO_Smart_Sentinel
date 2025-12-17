@@ -1,0 +1,8 @@
+setup.py
+instant_messaging_interfaces/__init__.py
+instant_messaging_interfaces.egg-info/PKG-INFO
+instant_messaging_interfaces.egg-info/SOURCES.txt
+instant_messaging_interfaces.egg-info/dependency_links.txt
+instant_messaging_interfaces.egg-info/top_level.txt
+instant_messaging_interfaces/msg/__init__.py
+instant_messaging_interfaces/msg/_options.py

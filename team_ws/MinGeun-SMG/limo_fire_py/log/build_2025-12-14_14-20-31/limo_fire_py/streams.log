@@ -1,0 +1,30 @@
+[2.469s] Invoking command in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main': PYTHONPATH=/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_fire_py build --build-base /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build install --record /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[3.293s] running egg_info
+[3.312s] writing build/limo_fire_py/limo_fire_py.egg-info/PKG-INFO
+[3.313s] writing dependency_links to build/limo_fire_py/limo_fire_py.egg-info/dependency_links.txt
+[3.314s] writing entry points to build/limo_fire_py/limo_fire_py.egg-info/entry_points.txt
+[3.314s] writing requirements to build/limo_fire_py/limo_fire_py.egg-info/requires.txt
+[3.315s] writing top-level names to build/limo_fire_py/limo_fire_py.egg-info/top_level.txt
+[3.320s] reading manifest file 'build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.333s] writing manifest file 'build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.333s] running build
+[3.334s] running build_py
+[3.334s] copying limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build/lib/limo_fire_py
+[3.335s] running install
+[3.336s] running install_lib
+[3.339s] copying /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build/lib/limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.341s] byte-compiling /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_sensor_reader.py to fire_sensor_reader.cpython-310.pyc
+[3.343s] running install_data
+[3.344s] running install_egg_info
+[3.361s] removing '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.365s] Copying build/limo_fire_py/limo_fire_py.egg-info to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info
+[3.378s] running install_scripts
+[3.436s] Installing bt_runner script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.437s] Installing bt_visualizer script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.437s] Installing fire_alarm_notifier script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.438s] Installing fire_safety_controller script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.438s] Installing fire_sensor_publisher script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.438s] Installing fire_sensor_reader script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.438s] Installing pygame_visualizer script to /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/limo_fire_py
+[3.439s] writing list of installed files to '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log'
+[3.537s] Invoked command in '/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main' returned '0': PYTHONPATH=/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/limo_fire_py build --build-base /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/build install --record /home/wego/team_ws/MinGeun-SMG/limo_fire_py-main/build/limo_fire_py/install.log --single-version-externally-managed install_data

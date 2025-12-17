@@ -1,0 +1,155 @@
+[0.039s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j6 -l6
+[0.793s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_generator_c[0m
+[0.793s] [  9%] Built target instant_messaging_interfaces__rosidl_generator_c
+[0.793s] [ 12%] Built target instant_messaging_interfaces__cpp
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_c[0m
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.794s] [ 12%] Built target ament_cmake_python_copy_instant_messaging_interfaces
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_introspection_c[0m
+[0.794s] [ 22%] Built target instant_messaging_interfaces__rosidl_typesupport_fastrtps_c
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_cpp[0m
+[0.794s] [ 32%] Built target instant_messaging_interfaces__rosidl_typesupport_c
+[0.795s] [ 48%] Built target instant_messaging_interfaces__rosidl_typesupport_introspection_c
+[0.795s] [ 51%] Built target instant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.795s] [ 61%] Built target instant_messaging_interfaces__rosidl_typesupport_cpp
+[0.795s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.795s] [ 70%] Built target instant_messaging_interfaces__rosidl_typesupport_introspection_cpp
+[0.795s] [ 70%] Built target instant_messaging_interfaces
+[0.795s] [ 74%] Built target instant_messaging_interfaces__py
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_generator_py[0m
+[0.796s] [ 80%] Built target instant_messaging_interfaces__rosidl_generator_py
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.796s] [35m[1mConsolidate compiler generated dependencies of target instant_messaging_interfaces__rosidl_typesupport_c__pyext[0m
+[0.796s] [ 90%] Built target instant_messaging_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.796s] [ 93%] Built target instant_messaging_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.796s] [100%] Built target instant_messaging_interfaces__rosidl_typesupport_c__pyext
+[0.866s] running egg_info
+[0.868s] writing instant_messaging_interfaces.egg-info/PKG-INFO
+[0.868s] writing dependency_links to instant_messaging_interfaces.egg-info/dependency_links.txt
+[0.869s] writing top-level names to instant_messaging_interfaces.egg-info/top_level.txt
+[0.876s] reading manifest file 'instant_messaging_interfaces.egg-info/SOURCES.txt'
+[0.878s] writing manifest file 'instant_messaging_interfaces.egg-info/SOURCES.txt'
+[0.957s] [100%] Built target ament_cmake_python_build_instant_messaging_interfaces_egg
+[1.426s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j6 -l6
+[1.427s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces
+[1.461s] -- Install configuration: ""
+[1.462s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/ament_index/resource_index/rosidl_interfaces/instant_messaging_interfaces
+[1.463s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.463s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.463s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.464s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.464s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__functions.c
+[1.464s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__functions.h
+[1.465s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__type_support.h
+[1.465s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__struct.h
+[1.465s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/options.h
+[1.465s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/library_path.sh
+[1.465s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/library_path.dsv
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_generator_c.so
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__rosidl_typesupport_fastrtps_c.h
+[1.466s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.467s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.468s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.468s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.468s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.468s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.469s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__rosidl_typesupport_introspection_c.h
+[1.469s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__type_support.c
+[1.470s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_introspection_c.so
+[1.471s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_c.so
+[1.472s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.472s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.472s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.473s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/options.hpp
+[1.473s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.473s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__type_support.hpp
+[1.473s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__traits.hpp
+[1.474s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__struct.hpp
+[1.474s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__builder.hpp
+[1.474s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.474s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.475s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.475s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.475s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__rosidl_typesupport_fastrtps_cpp.hpp
+[1.475s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/dds_fastrtps
+[1.476s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.477s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces
+[1.478s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg
+[1.478s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail
+[1.478s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__type_support.cpp
+[1.478s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/include/instant_messaging_interfaces/instant_messaging_interfaces/msg/detail/options__rosidl_typesupport_introspection_cpp.hpp
+[1.478s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.480s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_typesupport_cpp.so
+[1.481s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/pythonpath.sh
+[1.481s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/pythonpath.dsv
+[1.481s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces-0.0.0-py3.10.egg-info
+[1.481s] -- Installing: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.483s] -- Installing: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.483s] -- Installing: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.484s] -- Installing: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.484s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces
+[1.484s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.484s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/__init__.py
+[1.484s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/msg
+[1.484s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/msg/_options.py
+[1.485s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/msg/__init__.py
+[1.485s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/msg/_options_s.c
+[1.485s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/_instant_messaging_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.485s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/libinstant_messaging_interfaces__rosidl_generator_py.so
+[1.485s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.486s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/_instant_messaging_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.486s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/_instant_messaging_interfaces_s.ep.rosidl_typesupport_c.c
+[1.486s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.522s] Listing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces'...
+[1.523s] Listing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/msg'...
+[1.543s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.544s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.545s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages/instant_messaging_interfaces/instant_messaging_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.546s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/libinstant_messaging_interfaces__rosidl_generator_py.so
+[1.547s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/msg/Options.idl
+[1.547s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/msg/Options.msg
+[1.547s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/ament_index/resource_index/package_run_dependencies/instant_messaging_interfaces
+[1.548s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/ament_index/resource_index/parent_prefix_path/instant_messaging_interfaces
+[1.548s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/ament_prefix_path.sh
+[1.548s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/ament_prefix_path.dsv
+[1.548s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/path.sh
+[1.548s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/environment/path.dsv
+[1.549s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/local_setup.bash
+[1.549s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/local_setup.sh
+[1.549s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/local_setup.zsh
+[1.549s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/local_setup.dsv
+[1.550s] -- Installing: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.dsv
+[1.551s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/ament_index/resource_index/packages/instant_messaging_interfaces
+[1.551s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_generator_cExport.cmake
+[1.551s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.552s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.553s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.553s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.553s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.554s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_cExport.cmake
+[1.554s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.555s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_generator_cppExport.cmake
+[1.556s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.558s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.559s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.562s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_cppExport.cmake
+[1.562s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.564s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_generator_pyExport.cmake
+[1.567s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/export_instant_messaging_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.567s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.567s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.567s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.568s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.570s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.570s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.571s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.571s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfacesConfig.cmake
+[1.571s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/cmake/instant_messaging_interfacesConfig-version.cmake
+[1.573s] -- Up-to-date: /home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.xml
+[1.584s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces

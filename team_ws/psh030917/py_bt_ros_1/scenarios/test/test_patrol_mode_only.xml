@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="test_patrol_mode_only">
+    <ReactiveSequence>
+      <!-- 순찰 모드 자동 설정 테스트 (카메라 밝기 기반, 원본 기본값 사용) -->
+      <ManagePatrolMode mode_source="auto"/>
+      
+      <!-- 모드 확인 및 로그 출력 -->
+      <IsNightMode patrol_mode_topic="/patrol_mode"
+                   target_mode="NIGHT"/>
+      
+      <SendTelegramMessage message="야간 모드 활성화"
+                         interval="10.0"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="ManagePatrolMode"
+            editable="true">
+      <input_port name="mode_source"
+                  default="auto"/>
+    </Action>
+    
+    <Condition ID="IsNightMode"
+               editable="true">
+      <input_port name="patrol_mode_topic"
+                  default="/patrol_mode"/>
+      <input_port name="target_mode"
+                  default="NIGHT"/>
+    </Condition>
+    
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="사람이 감지되었습니다."/>
+      <input_port name="interval"
+                  default="3.0"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
+

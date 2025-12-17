@@ -1,0 +1,728 @@
+[0.259s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.260s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffad606cb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffad605f90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffad605f90>>, mixin_verb=('build',))
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.674s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wego/team_ws/psh030917/py_bt_ros_1'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'ignore_ament_install'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'ros'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['cmake', 'python']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'cmake'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'python'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extensions ['python_setup_py']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules) by extension 'python_setup_py'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'ignore_ament_install'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['colcon_pkg']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'ros'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['cmake', 'python']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'cmake'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'python'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extensions ['python_setup_py']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(modules/__pycache__) by extension 'python_setup_py'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'ros'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['cmake', 'python']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'cmake'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'python'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extensions ['python_setup_py']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios) by extension 'python_setup_py'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'colcon_meta'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['ros']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'ros'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['cmake', 'python']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'cmake'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'python'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extensions ['python_setup_py']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/__pycache__) by extension 'python_setup_py'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['colcon_pkg']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'colcon_pkg'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'ros'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['cmake', 'python']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'cmake'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'python'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim) by extension 'python_setup_py'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'ros'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['cmake', 'python']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'cmake'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'python'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extensions ['python_setup_py']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/example_turtlesim/__pycache__) by extension 'python_setup_py'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3) by extension 'python_setup_py'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'colcon_pkg'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['colcon_meta']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'ros'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['cmake', 'python']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'cmake'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'python'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extensions ['python_setup_py']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/nav2_turtlebot3/__pycache__) by extension 'python_setup_py'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'ros'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['cmake', 'python']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'cmake'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'python'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extensions ['python_setup_py']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test) by extension 'python_setup_py'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'ros'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['cmake', 'python']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'cmake'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'python'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extensions ['python_setup_py']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test/__pycache__) by extension 'python_setup_py'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['ros']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'ros'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['cmake', 'python']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'cmake'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'python'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extensions ['python_setup_py']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2) by extension 'python_setup_py'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'ros'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['cmake', 'python']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'cmake'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'python'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extensions ['python_setup_py']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test  backup2/__pycache__) by extension 'python_setup_py'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'ros'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['cmake', 'python']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'cmake'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'python'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extensions ['python_setup_py']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup) by extension 'python_setup_py'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'ignore_ament_install'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['colcon_pkg']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'colcon_pkg'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'colcon_meta'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['ros']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'ros'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['cmake', 'python']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'cmake'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'python'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extensions ['python_setup_py']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(scenarios/test backup/__pycache__) by extension 'python_setup_py'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/instant_messaging_interfaces) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/instant_messaging_interfaces' with type 'ros.ament_cmake' and name 'instant_messaging_interfaces'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_fire_py) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/limo_fire_py' with type 'ros.ament_python' and name 'limo_fire_py'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'ros'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/limo_night_patrol': Error(s) in package 'src/limo_night_patrol/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['cmake', 'python']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'cmake'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'python'
+[0.741s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/limo_night_patrol' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extensions ['python_setup_py']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/limo_night_patrol) by extension 'python_setup_py'
+[1.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/limo_night_patrol' with type 'python' and name 'limo_night_patrol'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extensions ['colcon_pkg']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extension 'colcon_pkg'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extensions ['colcon_meta']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extension 'colcon_meta'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extensions ['ros']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/telegram_ros2) by extension 'ros'
+[1.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/telegram_ros2' with type 'ros.ament_python' and name 'telegram_ros2'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[1.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[1.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[1.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'
+[1.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'instant_messaging_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.625s] DEBUG:colcon.colcon_core.verb:Building package 'instant_messaging_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_target' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'limo_fire_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.626s] DEBUG:colcon.colcon_core.verb:Building package 'limo_fire_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py', 'symlink_install': False, 'test_result_base': None}
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_args' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_target' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_clean_cache' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_clean_first' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'cmake_force_configure' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'ament_cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'catkin_cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'limo_night_patrol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.628s] DEBUG:colcon.colcon_core.verb:Building package 'limo_night_patrol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol', 'symlink_install': False, 'test_result_base': None}
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.629s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_target' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'telegram_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.630s] DEBUG:colcon.colcon_core.verb:Building package 'telegram_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.631s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros', 'symlink_install': False, 'test_result_base': None}
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.632s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup', 'merge_install': False, 'path': '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.633s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.636s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_msgs' with build type 'ament_cmake'
+[1.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_msgs'
+[1.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces' with build type 'ament_cmake'
+[1.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces'
+[1.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.670s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py' with build type 'ament_python'
+[1.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_fire_py', 'ament_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/ament_prefix_path.sh'
+[1.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.684s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol'
+[1.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs
+[1.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces
+[2.482s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py'
+[2.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[4.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data
+[5.130s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py' for CMake module files
+[5.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[5.148s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py' for CMake config files
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/bin'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/pkgconfig/limo_fire_py.pc'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages'
+[5.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_fire_py', 'pythonpath')
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.ps1'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.dsv'
+[5.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/hook/pythonpath.sh'
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/bin'
+[5.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_fire_py)
+[5.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/package.ps1'
+[5.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/package.dsv'
+[5.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/package.sh'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/package.bash'
+[5.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/package.zsh'
+[5.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/colcon-core/packages/limo_fire_py)
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol' for CMake module files
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol' for CMake config files
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/bin'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/pkgconfig/limo_night_patrol.pc'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages'
+[5.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_night_patrol', 'pythonpath')
+[5.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/hook/pythonpath.ps1'
+[5.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/hook/pythonpath.dsv'
+[5.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/hook/pythonpath.sh'
+[5.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_night_patrol' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_night_patrol build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log --single-version-externally-managed install_data
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/bin'
+[5.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_night_patrol)
+[5.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/package.ps1'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/package.dsv'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/package.sh'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/package.bash'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/limo_night_patrol/package.zsh'
+[5.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/share/colcon-core/packages/limo_night_patrol)
+[6.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces
+[6.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j6 -l6
+[7.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs
+[7.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs -- -j6 -l6
+[12.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j6 -l6
+[13.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces
+[13.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(instant_messaging_interfaces)
+[13.223s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces' for CMake module files
+[13.225s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces' for CMake config files
+[13.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('instant_messaging_interfaces', 'cmake_prefix_path')
+[13.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.ps1'
+[13.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.dsv'
+[13.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.sh'
+[13.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces
+[13.243s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib'
+[13.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('instant_messaging_interfaces', 'ld_library_path_lib')
+[13.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.ps1'
+[13.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.dsv'
+[13.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.sh'
+[13.246s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/bin'
+[13.247s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/pkgconfig/instant_messaging_interfaces.pc'
+[13.247s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/python3.10/site-packages'
+[13.248s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/bin'
+[13.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.ps1'
+[13.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.dsv'
+[13.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.sh'
+[13.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.bash'
+[13.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.zsh'
+[13.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/colcon-core/packages/instant_messaging_interfaces)
+[13.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(instant_messaging_interfaces)
+[13.261s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces' for CMake module files
+[13.263s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces' for CMake config files
+[13.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('instant_messaging_interfaces', 'cmake_prefix_path')
+[13.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.ps1'
+[13.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.dsv'
+[13.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/cmake_prefix_path.sh'
+[13.274s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib'
+[13.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('instant_messaging_interfaces', 'ld_library_path_lib')
+[13.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.ps1'
+[13.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.dsv'
+[13.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/hook/ld_library_path_lib.sh'
+[13.277s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/bin'
+[13.277s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/pkgconfig/instant_messaging_interfaces.pc'
+[13.291s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib/python3.10/site-packages'
+[13.291s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/bin'
+[13.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.ps1'
+[13.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.dsv'
+[13.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.sh'
+[13.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.bash'
+[13.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/instant_messaging_interfaces/package.zsh'
+[13.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/share/colcon-core/packages/instant_messaging_interfaces)
+[13.305s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2' with build type 'ament_python'
+[13.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('telegram_ros2', 'ament_prefix_path')
+[13.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/ament_prefix_path.ps1'
+[13.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/ament_prefix_path.dsv'
+[13.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/ament_prefix_path.sh'
+[13.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.454s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2'
+[14.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data
+[16.679s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2' for CMake module files
+[16.681s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2' for CMake config files
+[16.682s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib'
+[16.682s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/bin'
+[16.683s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/pkgconfig/telegram_ros2.pc'
+[16.683s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages'
+[16.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('telegram_ros2', 'pythonpath')
+[16.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/pythonpath.ps1'
+[16.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/telegram_ros2' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data
+[16.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/pythonpath.dsv'
+[16.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/hook/pythonpath.sh'
+[16.689s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/bin'
+[16.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(telegram_ros2)
+[16.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/package.ps1'
+[16.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/package.dsv'
+[16.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/package.sh'
+[16.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/package.bash'
+[16.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/telegram_ros2/package.zsh'
+[16.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/telegram_ros2/share/colcon-core/packages/telegram_ros2)
+[31.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs -- -j6 -l6
+[31.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs
+[31.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[31.663s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs' for CMake module files
+[31.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_msgs
+[31.666s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs' for CMake config files
+[31.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[31.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[31.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[31.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[31.677s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib'
+[31.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[31.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[31.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[31.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[31.681s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/bin'
+[31.681s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[31.682s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib/python3.10/site-packages'
+[31.682s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/bin'
+[31.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[31.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[31.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.sh'
+[31.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.bash'
+[31.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[31.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[31.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[31.694s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs' for CMake module files
+[31.695s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs' for CMake config files
+[31.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[31.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[31.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[31.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[31.702s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib'
+[31.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[31.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[31.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[31.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[31.707s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/bin'
+[31.708s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[31.708s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib/python3.10/site-packages'
+[31.709s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/bin'
+[31.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[31.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[31.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.sh'
+[31.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.bash'
+[31.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[31.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[31.717s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros' with build type 'ament_python'
+[31.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'ament_prefix_path')
+[31.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.ps1'
+[31.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.dsv'
+[31.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.sh'
+[31.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.371s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros'
+[32.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/install.log --single-version-externally-managed install_data
+[33.943s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros' for CMake module files
+[33.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/install.log --single-version-externally-managed install_data
+[33.947s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros' for CMake config files
+[33.948s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib'
+[33.948s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/bin'
+[33.948s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/pkgconfig/yolo_ros.pc'
+[33.949s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages'
+[33.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'pythonpath')
+[33.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/pythonpath.ps1'
+[33.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/pythonpath.dsv'
+[33.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/hook/pythonpath.sh'
+[33.957s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/bin'
+[33.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_ros)
+[33.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/package.ps1'
+[33.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/package.dsv'
+[33.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/package.sh'
+[33.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/package.bash'
+[33.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros/package.zsh'
+[33.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/colcon-core/packages/yolo_ros)
+[33.966s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_bringup' with build type 'ament_cmake'
+[33.967s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_bringup'
+[33.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup
+[35.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup
+[35.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup -- -j6 -l6
+[35.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup -- -j6 -l6
+[35.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup
+[35.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[35.654s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup' for CMake module files
+[35.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_bringup
+[35.658s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup' for CMake config files
+[35.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[35.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[35.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[35.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[35.666s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/bin'
+[35.667s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[35.668s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/lib/python3.10/site-packages'
+[35.670s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/bin'
+[35.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[35.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[35.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.sh'
+[35.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.bash'
+[35.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[35.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[35.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[35.681s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup' for CMake module files
+[35.683s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup' for CMake config files
+[35.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[35.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[35.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[35.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[35.689s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/bin'
+[35.689s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[35.690s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/lib/python3.10/site-packages'
+[35.692s] Level 1:colcon.colcon_core.environment:checking '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/bin'
+[35.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[35.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[35.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.sh'
+[35.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.bash'
+[35.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[35.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[35.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.704s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.728s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.778s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/local_setup.ps1'
+[35.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wego/team_ws/psh030917/py_bt_ros_1/install/_local_setup_util_ps1.py'
+[35.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/setup.ps1'
+[35.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/local_setup.sh'
+[35.792s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wego/team_ws/psh030917/py_bt_ros_1/install/_local_setup_util_sh.py'
+[35.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/setup.sh'
+[35.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/local_setup.bash'
+[35.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/setup.bash'
+[35.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/local_setup.zsh'
+[35.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wego/team_ws/psh030917/py_bt_ros_1/install/setup.zsh'

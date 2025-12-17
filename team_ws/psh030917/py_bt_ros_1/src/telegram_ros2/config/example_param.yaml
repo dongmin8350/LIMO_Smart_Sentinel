@@ -1,0 +1,5 @@
+telegram_bridge:
+    ros__parameters:
+        api_token: '7774235199:AAHqI-UCk-ArJ7fovrjrCzLYnwNthkX2w_8'
+        whitelist: []
+        blacklist: []

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <!-- 예제 1: 사람 감지 후 자동 등록 -->
+  <BehaviorTree ID="auto_register_person">
+    <ReactiveSequence>
+      <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+      <DisplayYOLODetection/>
+      <Sequence>
+        <!-- 사람 감지 -->
+        <IsDetectedSomething target_class="person"
+                             confidence_threshold="0.5"
+                             cooldown_time="5.0"
+                             iou_threshold="0.3"/>
+        
+        <!-- 등록된 사람인지 확인 -->
+        <Fallback>
+          <!-- 이미 등록된 사람이면 통과 -->
+          <IsRegisteredPerson target_class="person" similarity_threshold="0.75"/>
+          
+          <!-- 등록되지 않은 사람이면 등록 -->
+          <Sequence>
+            <!-- blackboard에 사람 이름 설정 (여기서는 기본값 사용) -->
+            <RegisterPerson target_class="person" person_name="Unknown_Person"/>
+            <SendTelegramMessage message="새로운 사람이 자동으로 등록되었습니다."/>
+            <CaptureScreen/>
+          </Sequence>
+        </Fallback>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- 예제 2: 수동 등록 (특정 이름으로 등록) -->
+  <BehaviorTree ID="manual_register_person">
+    <ReactiveSequence>
+      <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+      <DisplayYOLODetection/>
+      <Sequence>
+        <!-- 사람 감지 -->
+        <IsDetectedSomething target_class="person"
+                             confidence_threshold="0.5"
+                             cooldown_time="5.0"
+                             iou_threshold="0.3"/>
+        
+        <!-- 등록되지 않은 사람이면 등록 -->
+        <Fallback>
+          <IsRegisteredPerson target_class="person" similarity_threshold="0.75"/>
+          <Sequence>
+            <!-- blackboard에서 person_name을 가져오거나, XML 파라미터 사용 -->
+            <RegisterPerson target_class="person" person_name="홍길동"/>
+            <SendTelegramMessage message="홍길동님이 등록되었습니다."/>
+          </Sequence>
+        </Fallback>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- 예제 3: 등록된 사람과 등록되지 않은 사람 구분 처리 -->
+  <BehaviorTree ID="distinguish_registered_person">
+    <ReactiveSequence>
+      <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+      <DisplayYOLODetection/>
+      <Sequence>
+        <!-- 사람 감지 -->
+        <IsDetectedSomething target_class="person"
+                             confidence_threshold="0.5"
+                             cooldown_time="10.0"
+                             iou_threshold="0.3"/>
+        
+        <!-- 등록된 사람인지 확인 -->
+        <Fallback>
+          <!-- 등록된 사람: 환영 메시지 -->
+          <Sequence>
+            <IsRegisteredPerson target_class="person" similarity_threshold="0.75"/>
+            <SendTelegramMessage message="등록된 사용자입니다. 환영합니다!"/>
+          </Sequence>
+          
+          <!-- 등록되지 않은 사람: 경고 및 등록 옵션 -->
+          <Sequence>
+            <SendTelegramMessage message="등록되지 않은 사람이 감지되었습니다!"/>
+            <CaptureScreen/>
+            <!-- 필요시 자동 등록 또는 수동 등록 -->
+            <!-- <RegisterPerson target_class="person" person_name="Unknown"/> -->
+          </Sequence>
+        </Fallback>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="CaptureCameraImage"
+            editable="true">
+      <input_port name="camera_topic"
+                  default="psh"/>
+    </Action>
+    <Action ID="CaptureScreen"
+            editable="true"/>
+    <Action ID="DisplayYOLODetection"
+            editable="true"/>
+    <Condition ID="IsDetectedSomething"
+               editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="confidence_threshold"
+                  default="0.5"/>
+      <input_port name="cooldown_time"
+                  default="10.0"/>
+      <input_port name="iou_threshold"
+                  default="0.3"/>
+    </Condition>
+    <Condition ID="IsRegisteredPerson"
+               editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="similarity_threshold"
+                  default="0.75"/>
+    </Condition>
+    <Action ID="RegisterPerson"
+            editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="person_name"
+                  default=""/>
+    </Action>
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="사람이 감지되었습니다."/>
+      <input_port name="interval"
+                  default="3.0"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
+

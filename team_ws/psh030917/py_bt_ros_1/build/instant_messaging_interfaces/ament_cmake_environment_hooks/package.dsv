@@ -1,0 +1,4 @@
+source;share/instant_messaging_interfaces/local_setup.bash
+source;share/instant_messaging_interfaces/local_setup.dsv
+source;share/instant_messaging_interfaces/local_setup.sh
+source;share/instant_messaging_interfaces/local_setup.zsh

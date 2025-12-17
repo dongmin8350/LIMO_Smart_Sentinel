@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target detectnet[0m
+[ 40%] Built target imagenet
+[ 40%] Built target segnet
+[ 75%] Built target video_output
+[ 80%] Built target video_source
+[ 85%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m

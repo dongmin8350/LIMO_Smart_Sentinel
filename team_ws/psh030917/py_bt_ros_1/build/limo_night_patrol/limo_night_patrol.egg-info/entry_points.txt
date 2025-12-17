@@ -1,0 +1,12 @@
+[console_scripts]
+camera_capture_server = limo_night_patrol.camera_capture_server_node:main
+depth_obstacle_detector = limo_night_patrol.depth_obstacle_detector_node:main
+dummy_limo_base = limo_night_patrol.dummy_limo_base_node:main
+dummy_navigator = limo_night_patrol.dummy_navigator_node:main
+dummy_rgb_pub = limo_night_patrol.dummy_rgb_publisher_node:main
+dummy_safety_mux = limo_night_patrol.dummy_safety_mux_node:main
+event_handler_night = limo_night_patrol.event_handler_night_node:main
+mode_manager = limo_night_patrol.mode_manager_node:main
+night_intruder_detector = limo_night_patrol.night_intruder_detector_node:main
+patrol_manager = limo_night_patrol.patrol_manager_node:main
+

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/limo_night_patrol/limo_night_patrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/limo_night_patrol/limo_night_patrol.egg-info/dependency_links.txt
+writing entry points to ../../build/limo_night_patrol/limo_night_patrol.egg-info/entry_points.txt
+writing requirements to ../../build/limo_night_patrol/limo_night_patrol.egg-info/requires.txt
+writing top-level names to ../../build/limo_night_patrol/limo_night_patrol.egg-info/top_level.txt
+reading manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/limo_night_patrol/limo_night_patrol.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/limo_night_patrol/limo_night_patrol.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/python3.10/site-packages/limo_night_patrol-0.0.1-py3.10.egg-info
+running install_scripts
+Installing camera_capture_server script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing depth_obstacle_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing dummy_limo_base script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing dummy_navigator script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing dummy_rgb_pub script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing dummy_safety_mux script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing event_handler_night script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing mode_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing night_intruder_detector script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+Installing patrol_manager script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_night_patrol/lib/limo_night_patrol
+writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_night_patrol/install.log'

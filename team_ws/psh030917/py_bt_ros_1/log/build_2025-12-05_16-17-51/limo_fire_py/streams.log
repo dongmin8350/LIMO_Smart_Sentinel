@@ -1,0 +1,63 @@
+[2.457s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[3.110s] running egg_info
+[3.114s] creating ../../build/limo_fire_py/limo_fire_py.egg-info
+[3.115s] writing ../../build/limo_fire_py/limo_fire_py.egg-info/PKG-INFO
+[3.118s] writing dependency_links to ../../build/limo_fire_py/limo_fire_py.egg-info/dependency_links.txt
+[3.120s] writing entry points to ../../build/limo_fire_py/limo_fire_py.egg-info/entry_points.txt
+[3.121s] writing requirements to ../../build/limo_fire_py/limo_fire_py.egg-info/requires.txt
+[3.122s] writing top-level names to ../../build/limo_fire_py/limo_fire_py.egg-info/top_level.txt
+[3.124s] writing manifest file '../../build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.131s] reading manifest file '../../build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.133s] writing manifest file '../../build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.134s] running build
+[3.135s] running build_py
+[3.136s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build
+[3.137s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib
+[3.138s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.139s] copying limo_fire_py/fire_alarm_notifier.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.140s] copying limo_fire_py/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.142s] copying limo_fire_py/bt_runner.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.143s] copying limo_fire_py/pygame_visualizer.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.145s] copying limo_fire_py/bt_visualizer.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.147s] copying limo_fire_py/fire_sensor_publisher.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.148s] copying limo_fire_py/fire_safety_controller.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.150s] copying limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py
+[3.152s] running install
+[3.153s] running install_lib
+[3.156s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.157s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/fire_alarm_notifier.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.158s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.159s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/bt_runner.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.160s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/pygame_visualizer.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.161s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/bt_visualizer.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.161s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/fire_sensor_publisher.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.162s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/fire_safety_controller.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.163s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build/lib/limo_fire_py/fire_sensor_reader.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py
+[3.165s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_alarm_notifier.py to fire_alarm_notifier.cpython-310.pyc
+[3.166s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/__init__.py to __init__.cpython-310.pyc
+[3.167s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/bt_runner.py to bt_runner.cpython-310.pyc
+[3.168s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/pygame_visualizer.py to pygame_visualizer.cpython-310.pyc
+[3.169s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/bt_visualizer.py to bt_visualizer.cpython-310.pyc
+[3.171s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_sensor_publisher.py to fire_sensor_publisher.cpython-310.pyc
+[3.172s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_safety_controller.py to fire_safety_controller.cpython-310.pyc
+[3.173s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py/fire_sensor_reader.py to fire_sensor_reader.cpython-310.pyc
+[3.174s] running install_data
+[3.174s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/ament_index
+[3.174s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/ament_index/resource_index
+[3.174s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/ament_index/resource_index/packages
+[3.175s] copying resource/limo_fire_py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/ament_index/resource_index/packages
+[3.175s] copying package.xml -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py
+[3.175s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/launch
+[3.176s] copying launch/fire_system.launch.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/share/limo_fire_py/launch
+[3.176s] running install_egg_info
+[3.182s] Copying ../../build/limo_fire_py/limo_fire_py.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info
+[3.189s] running install_scripts
+[3.289s] Installing bt_runner script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.291s] Installing bt_visualizer script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.292s] Installing fire_alarm_notifier script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.293s] Installing fire_safety_controller script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.294s] Installing fire_sensor_publisher script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.296s] Installing fire_sensor_reader script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.297s] Installing pygame_visualizer script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.300s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log'
+[3.467s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data

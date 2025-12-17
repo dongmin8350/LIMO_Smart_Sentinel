@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning': /usr/bin/cmake /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning
+[0.049s] [31mCMake Error at /home/wego/jetson-inference/build/utils/CMakeFiles/Export/share/jetson-utils/cmake/jetson-utilsConfig.cmake:70 (message):
+[0.049s]   The imported target "jetson-utils" references the file
+[0.049s] 
+[0.050s]      "/home/wego/jetson-inference/build/utils/CMakeFiles/Export/lib/libjetson-utils.so"
+[0.050s] 
+[0.050s]   but this file does not exist.  Possible reasons include:
+[0.050s] 
+[0.050s]   * The file was deleted, renamed, or moved to another location.
+[0.050s] 
+[0.050s]   * An install or uninstall procedure did not complete successfully.
+[0.050s] 
+[0.051s]   * The installation package was faulty and contained
+[0.051s] 
+[0.051s]      "/home/wego/jetson-inference/build/utils/CMakeFiles/Export/share/jetson-utils/cmake/jetson-utilsConfig.cmake"
+[0.051s] 
+[0.051s]   but not all the files it references.
+[0.051s] 
+[0.051s] Call Stack (most recent call first):
+[0.051s]   CMakeLists.txt:10 (find_package)
+[0.052s] 
+[0.052s] [0m
+[0.052s] -- Configuring incomplete, errors occurred!
+[0.052s] See also "/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning/CMakeFiles/CMakeOutput.log".
+[0.054s] Invoked command in '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning' returned '1': /usr/bin/cmake /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning

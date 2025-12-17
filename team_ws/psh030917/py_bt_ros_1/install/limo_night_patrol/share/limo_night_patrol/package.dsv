@@ -1,0 +1,3 @@
+source;share/limo_night_patrol/hook/pythonpath.ps1
+source;share/limo_night_patrol/hook/pythonpath.dsv
+source;share/limo_night_patrol/hook/pythonpath.sh

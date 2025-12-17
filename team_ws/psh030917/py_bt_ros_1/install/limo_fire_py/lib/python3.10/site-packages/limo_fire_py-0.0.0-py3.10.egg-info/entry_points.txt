@@ -1,0 +1,9 @@
+[console_scripts]
+bt_runner = limo_fire_py.bt_runner:main
+bt_visualizer = limo_fire_py.bt_visualizer:main
+fire_alarm_notifier = limo_fire_py.fire_alarm_notifier:main
+fire_safety_controller = limo_fire_py.fire_safety_controller:main
+fire_sensor_publisher = limo_fire_py.fire_sensor_publisher:main
+fire_sensor_reader = limo_fire_py.fire_sensor_reader:main
+pygame_visualizer = limo_fire_py.pygame_visualizer:main
+

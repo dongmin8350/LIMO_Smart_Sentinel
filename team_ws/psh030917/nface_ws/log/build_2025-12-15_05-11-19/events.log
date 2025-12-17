@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.001268] (ros_deep_learning) JobQueued: {'identifier': 'ros_deep_learning', 'dependencies': OrderedDict()}
+[0.001417] (ros_deep_learning) JobStarted: {'identifier': 'ros_deep_learning'}
+[0.016092] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'cmake'}
+[0.017683] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'build'}
+[0.019254] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', '--', '-j6', '-l6'], 'cwd': '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('TENSORRT_INSTALL', '/usr/local/TensorRT-10.3.0.26'), ('USER', 'wego'), ('SSH_CLIENT', '10.49.12.96 40130 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64::/usr/local/TensorRT-10.3.0.26/lib'), ('BROWSER', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wego'), ('OLDPWD', '/home/wego/team_ws/psh030917'), ('TERM_PROGRAM_VERSION', '2.2.20'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7d0316b9-ff3b-47f6-a576-f6e233f54da0.sock'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wego'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422325081170'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/usr/src/tensorrt/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a27d7f680.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_AUTH_TOKEN', 'dce0ac18b61aff05be00c6cbdfc58c181776003945384826f10fa8bc307400b2'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.49.12.96 40130 10.49.12.92 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3767-0003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099000] (-) TimerEvent: {}
+[0.113778] (ros_deep_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target detectnet\x1b[0m\n'}
+[0.143206] (ros_deep_learning) StdoutLine: {'line': b'[ 40%] Built target imagenet\n'}
+[0.143993] (ros_deep_learning) StdoutLine: {'line': b'[ 40%] Built target segnet\n'}
+[0.148885] (ros_deep_learning) StdoutLine: {'line': b'[ 75%] Built target video_output\n'}
+[0.149283] (ros_deep_learning) StdoutLine: {'line': b'[ 80%] Built target video_source\n'}
+[0.169350] (ros_deep_learning) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o\x1b[0m\n'}
+[0.199214] (-) TimerEvent: {}
+[0.300043] (-) TimerEvent: {}
+[0.400855] (-) TimerEvent: {}
+[0.501702] (-) TimerEvent: {}
+[0.602539] (-) TimerEvent: {}
+[0.703424] (-) TimerEvent: {}
+[0.804301] (-) TimerEvent: {}
+[0.905425] (-) TimerEvent: {}
+[1.006250] (-) TimerEvent: {}
+[1.107113] (-) TimerEvent: {}
+[1.207927] (-) TimerEvent: {}
+[1.308749] (-) TimerEvent: {}
+[1.409597] (-) TimerEvent: {}
+[1.510450] (-) TimerEvent: {}
+[1.611358] (-) TimerEvent: {}
+[1.712194] (-) TimerEvent: {}
+[1.813018] (-) TimerEvent: {}
+[1.913793] (-) TimerEvent: {}
+[2.014588] (-) TimerEvent: {}
+[2.115286] (-) TimerEvent: {}
+[2.215969] (-) TimerEvent: {}
+[2.316655] (-) TimerEvent: {}
+[2.417378] (-) TimerEvent: {}
+[2.518050] (-) TimerEvent: {}
+[2.618764] (-) TimerEvent: {}
+[2.719425] (-) TimerEvent: {}
+[2.820083] (-) TimerEvent: {}
+[2.920801] (-) TimerEvent: {}
+[3.021453] (-) TimerEvent: {}
+[3.122112] (-) TimerEvent: {}
+[3.222818] (-) TimerEvent: {}
+[3.323458] (-) TimerEvent: {}
+[3.424095] (-) TimerEvent: {}
+[3.524738] (-) TimerEvent: {}
+[3.625395] (-) TimerEvent: {}
+[3.726053] (-) TimerEvent: {}
+[3.826718] (-) TimerEvent: {}
+[3.927367] (-) TimerEvent: {}
+[4.028042] (-) TimerEvent: {}
+[4.128703] (-) TimerEvent: {}
+[4.229395] (-) TimerEvent: {}
+[4.330057] (-) TimerEvent: {}
+[4.430740] (-) TimerEvent: {}
+[4.531419] (-) TimerEvent: {}
+[4.632078] (-) TimerEvent: {}
+[4.732750] (-) TimerEvent: {}
+[4.833422] (-) TimerEvent: {}
+[4.934117] (-) TimerEvent: {}
+[5.034854] (-) TimerEvent: {}
+[5.135539] (-) TimerEvent: {}
+[5.236228] (-) TimerEvent: {}
+[5.336889] (-) TimerEvent: {}
+[5.437564] (-) TimerEvent: {}
+[5.538221] (-) TimerEvent: {}
+[5.638925] (-) TimerEvent: {}
+[5.674189] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.675126] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.675416] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:239:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.675570] (ros_deep_learning) StderrLine: {'line': b'  239 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.675718] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.675841] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.675960] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.676075] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.676186] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.676297] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.676421] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.676554] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.676685] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.676826] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:254:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.676982] (ros_deep_learning) StderrLine: {'line': b'  254 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.677113] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.677241] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.677542] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.677690] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.677825] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.678272] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.678427] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.678544] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.678656] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.678815] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:271:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.678972] (ros_deep_learning) StderrLine: {'line': b'  271 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.679095] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.679208] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.679334] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.679445] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.679553] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.679677] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.679786] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.679894] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.680000] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.680108] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:289:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.680222] (ros_deep_learning) StderrLine: {'line': b'  289 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.680331] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.680441] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.680550] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.680658] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.680782] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.680892] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.680999] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.681106] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.681214] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.681324] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:308:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.681438] (ros_deep_learning) StderrLine: {'line': b'  308 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.681547] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.681656] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.681762] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.681869] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.681980] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.682090] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.682197] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.682315] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.682426] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.682531] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:635:116:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.682654] (ros_deep_learning) StderrLine: {'line': b'  635 |                                     nvinfer1::IInt8Calibrator* calibrator, char** engineStream, size_t* engineSize \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.682809] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.682936] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.683048] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.683170] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.683278] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.683385] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.683490] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.683592] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.683699] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.683805] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:644:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIInt8Calibrator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.683918] (ros_deep_learning) StderrLine: {'line': b'  644 |                                            nvinfer1::IInt8Calibrator* calibrator \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.684026] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.684132] (ros_deep_learning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30\x1b[m\x1b[K,\n'}
+[5.684238] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27\x1b[m\x1b[K,\n'}
+[5.684343] (ros_deep_learning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26\x1b[m\x1b[K:\n'}
+[5.684448] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.684556] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED \x1b[01;36m\x1b[KIInt8Calibrator\x1b[m\x1b[K : public IVersionedInterface\n'}
+[5.684664] (ros_deep_learning) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.739093] (-) TimerEvent: {}
+[5.749481] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.749903] (ros_deep_learning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:184:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_WARN\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.750049] (ros_deep_learning) StderrLine: {'line': b'  184 |                         \x1b[01;31m\x1b[KROS_WARN\x1b[m\x1b[K("failed to change directory to %s, continuing anyway", jetson_dir.c_str());\n'}
+[5.750208] (ros_deep_learning) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.839267] (-) TimerEvent: {}
+[5.939944] (-) TimerEvent: {}
+[6.040644] (-) TimerEvent: {}
+[6.141424] (-) TimerEvent: {}
+[6.242109] (-) TimerEvent: {}
+[6.342814] (-) TimerEvent: {}
+[6.443493] (-) TimerEvent: {}
+[6.544213] (-) TimerEvent: {}
+[6.644896] (-) TimerEvent: {}
+[6.745575] (-) TimerEvent: {}
+[6.846263] (-) TimerEvent: {}
+[6.946967] (-) TimerEvent: {}
+[7.047645] (-) TimerEvent: {}
+[7.148289] (-) TimerEvent: {}
+[7.248968] (-) TimerEvent: {}
+[7.349669] (-) TimerEvent: {}
+[7.450438] (-) TimerEvent: {}
+[7.551150] (-) TimerEvent: {}
+[7.651816] (-) TimerEvent: {}
+[7.752481] (-) TimerEvent: {}
+[7.853159] (-) TimerEvent: {}
+[7.953838] (-) TimerEvent: {}
+[8.054511] (-) TimerEvent: {}
+[8.155282] (-) TimerEvent: {}
+[8.255986] (-) TimerEvent: {}
+[8.356677] (-) TimerEvent: {}
+[8.457343] (-) TimerEvent: {}
+[8.558005] (-) TimerEvent: {}
+[8.658684] (-) TimerEvent: {}
+[8.759383] (-) TimerEvent: {}
+[8.860091] (-) TimerEvent: {}
+[8.960760] (-) TimerEvent: {}
+[9.061441] (-) TimerEvent: {}
+[9.162113] (-) TimerEvent: {}
+[9.263157] (-) TimerEvent: {}
+[9.363851] (-) TimerEvent: {}
+[9.464534] (-) TimerEvent: {}
+[9.565384] (-) TimerEvent: {}
+[9.666130] (-) TimerEvent: {}
+[9.766857] (-) TimerEvent: {}
+[9.867879] (-) TimerEvent: {}
+[9.968564] (-) TimerEvent: {}
+[10.069270] (-) TimerEvent: {}
+[10.169936] (-) TimerEvent: {}
+[10.270609] (-) TimerEvent: {}
+[10.371317] (-) TimerEvent: {}
+[10.471988] (-) TimerEvent: {}
+[10.572682] (-) TimerEvent: {}
+[10.673347] (-) TimerEvent: {}
+[10.774171] (-) TimerEvent: {}
+[10.874873] (-) TimerEvent: {}
+[10.975598] (-) TimerEvent: {}
+[11.076311] (-) TimerEvent: {}
+[11.177014] (-) TimerEvent: {}
+[11.277780] (-) TimerEvent: {}
+[11.378539] (-) TimerEvent: {}
+[11.479262] (-) TimerEvent: {}
+[11.579967] (-) TimerEvent: {}
+[11.680642] (-) TimerEvent: {}
+[11.781330] (-) TimerEvent: {}
+[11.882045] (-) TimerEvent: {}
+[11.982746] (-) TimerEvent: {}
+[12.083447] (-) TimerEvent: {}
+[12.184156] (-) TimerEvent: {}
+[12.284850] (-) TimerEvent: {}
+[12.311938] (ros_deep_learning) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/detectnet.dir/build.make:76: CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o] Error 1\n'}
+[12.312847] (ros_deep_learning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/detectnet.dir/all] Error 2\n'}
+[12.313491] (ros_deep_learning) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.319986] (ros_deep_learning) CommandEnded: {'returncode': 2}
+[12.361140] (ros_deep_learning) JobEnded: {'identifier': 'ros_deep_learning', 'rc': 2}
+[12.377472] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[2.914s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data
+[3.474s] running egg_info
+[3.475s] writing ../../build/limo_fire_py/limo_fire_py.egg-info/PKG-INFO
+[3.477s] writing dependency_links to ../../build/limo_fire_py/limo_fire_py.egg-info/dependency_links.txt
+[3.477s] writing entry points to ../../build/limo_fire_py/limo_fire_py.egg-info/entry_points.txt
+[3.477s] writing requirements to ../../build/limo_fire_py/limo_fire_py.egg-info/requires.txt
+[3.477s] writing top-level names to ../../build/limo_fire_py/limo_fire_py.egg-info/top_level.txt
+[3.483s] reading manifest file '../../build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.485s] writing manifest file '../../build/limo_fire_py/limo_fire_py.egg-info/SOURCES.txt'
+[3.485s] running build
+[3.488s] running build_py
+[3.488s] running install
+[3.488s] running install_lib
+[3.492s] running install_data
+[3.492s] running install_egg_info
+[3.494s] removing '/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.495s] Copying ../../build/limo_fire_py/limo_fire_py.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages/limo_fire_py-0.0.0-py3.10.egg-info
+[3.498s] running install_scripts
+[3.542s] Installing bt_runner script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.543s] Installing bt_visualizer script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.543s] Installing fire_alarm_notifier script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.543s] Installing fire_safety_controller script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.544s] Installing fire_sensor_publisher script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.544s] Installing fire_sensor_reader script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.544s] Installing pygame_visualizer script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/limo_fire_py
+[3.547s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log'
+[3.626s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/limo_fire_py' returned '0': PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/limo_fire_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_fire_py build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/limo_fire_py/install.log --single-version-externally-managed install_data

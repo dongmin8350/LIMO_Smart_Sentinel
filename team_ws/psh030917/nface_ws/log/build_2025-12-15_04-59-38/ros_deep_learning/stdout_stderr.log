@@ -1,0 +1,287 @@
+[35m[1mConsolidate compiler generated dependencies of target imagenet[0m
+[35m[1mConsolidate compiler generated dependencies of target detectnet[0m
+[35m[1mConsolidate compiler generated dependencies of target segnet[0m
+[35m[1mConsolidate compiler generated dependencies of target video_output[0m
+[35m[1mConsolidate compiler generated dependencies of target video_source[0m
+[  5%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[ 30%] Built target video_output
+[ 35%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[ 55%] Built target video_source
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:239:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:254:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  254 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:271:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  271 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:289:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  289 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:308:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  308 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:635:116:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  635 |                                     nvinfer1::IInt8Calibrator* calibrator, char** engineStream, size_t* engineSize [01;35m[K)[m[K;
+      |                                                                                                                    [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:644:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  644 |                                            nvinfer1::IInt8Calibrator* calibrator [01;35m[K)[m[K;
+      |                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:239:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |                     nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:254:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  254 |                     nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:271:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  271 |                     nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:289:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  289 |                     nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:308:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  308 |                     nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:635:116:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  635 |           nvinfer1::IInt8Calibrator* calibrator, char** engineStream, size_t* engineSize [01;35m[K)[m[K;
+      |                                                                                          [01;35m[K^[m[K
+
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:644:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  644 |                                            nvinfer1::IInt8Calibrator* calibrator [01;35m[K)[m[K;
+      |                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/imageNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_imagenet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:239:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:254:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  254 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:271:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  271 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:289:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  289 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:308:105:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  308 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL [01;35m[K)[m[K;
+      |                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:635:116:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  635 |                                     nvinfer1::IInt8Calibrator* calibrator, char** engineStream, size_t* engineSize [01;35m[K)[m[K;
+      |                                                                                                                    [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:644:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KIInt8Calibrator[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  644 |                                            nvinfer1::IInt8Calibrator* calibrator [01;35m[K)[m[K;
+      |                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30[m[K,
+                 from [01m[K/home/wego/jetson-inference/build/aarch64/include/jetson-inference/segNet.h:27[m[K,
+                 from [01m[K/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_segnet.cpp:26[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7677 | class TRT_DEPRECATED [01;36m[KIInt8Calibrator[m[K : public IVersionedInterface
+      |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX executable detectnet[0m
+[ 65%] [32m[1mLinking CXX executable segnet[0m
+[ 70%] [32m[1mLinking CXX executable imagenet[0m
+[ 80%] Built target detectnet
+[ 90%] Built target segnet
+[100%] Built target imagenet
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/segnet
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_source
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_output
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.xml

@@ -1,0 +1,49 @@
+[1.480s] Invoking command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/install.log --single-version-externally-managed install_data
+[2.049s] running egg_info
+[2.051s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[2.051s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[2.052s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[2.053s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[2.053s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[2.054s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[2.054s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.058s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.059s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.060s] running build
+[2.060s] running build_py
+[2.061s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build
+[2.061s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib
+[2.061s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.062s] copying yolo_ros/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.062s] copying yolo_ros/debug_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.062s] copying yolo_ros/yolo_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.063s] copying yolo_ros/tracking_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.063s] copying yolo_ros/detect_3d_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros
+[2.063s] running install
+[2.063s] running install_lib
+[2.065s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.066s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.066s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.066s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.067s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.067s] copying /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.068s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[2.069s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[2.074s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[2.078s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[2.081s] byte-compiling /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[2.085s] running install_data
+[2.085s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/ament_index
+[2.086s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/ament_index/resource_index
+[2.087s] creating /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/ament_index/resource_index/packages
+[2.087s] copying resource/yolo_ros -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/ament_index/resource_index/packages
+[2.087s] copying package.xml -> /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/share/yolo_ros
+[2.088s] running install_egg_info
+[2.091s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[2.092s] running install_scripts
+[2.140s] Installing debug_node script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/yolo_ros
+[2.141s] Installing detect_3d_node script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/yolo_ros
+[2.141s] Installing tracking_node script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/yolo_ros
+[2.141s] Installing yolo_node script to /home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/yolo_ros
+[2.142s] writing list of installed files to '/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/install.log'
+[2.223s] Invoked command in '/home/wego/team_ws/psh030917/py_bt_ros_1/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs LD_LIBRARY_PATH=/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/lib:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/TensorRT-10.3.0.26/lib PYTHONPATH=/home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_ros/lib/python3.10/site-packages:/home/wego/team_ws/psh030917/py_bt_ros_1/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/build install --record /home/wego/team_ws/psh030917/py_bt_ros_1/build/yolo_ros/install.log --single-version-externally-managed install_data

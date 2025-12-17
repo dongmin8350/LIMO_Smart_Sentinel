@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="test-telegram-image">
+    <!-- 텔레그램 이미지 전송 테스트용 행동 트리 -->
+    <Sequence>
+      <!-- 1. 카메라 이미지 캡처 -->
+      <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+      
+      <!-- 2. YOLO 검출 (선택적 - 검출 결과가 annotated_frame에 저장됨) -->
+      <DisplayYOLODetection/>
+      
+      <!-- 3. 이미지 캡처 및 텔레그램 전송 -->
+      <CaptureScreen send_to_telegram="true"
+                     telegram_caption="텔레그램 이미지 전송 테스트"/>
+      
+      <!-- 4. 테스트 완료 메시지 -->
+      <SendTelegramMessage message="✅ 이미지 전송 테스트 완료!"
+                           interval="0.0"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="CaptureCameraImage"
+            editable="true">
+      <input_port name="camera_topic"
+                  default="/camera/color/image_raw"/>
+    </Action>
+    <Action ID="DisplayYOLODetection"
+            editable="true"/>
+    <Action ID="CaptureScreen"
+            editable="true">
+      <input_port name="send_to_telegram"
+                  default="false"/>
+      <input_port name="telegram_caption"
+                  default=""/>
+    </Action>
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="테스트 메시지"/>
+      <input_port name="interval"
+                  default="0.0"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
+

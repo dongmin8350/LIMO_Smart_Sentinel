@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findjetson-inference.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "jetson-inference", but CMake did not find one.
+
+  Could not find a package configuration file provided by "jetson-inference"
+  with any of the following names:
+
+    jetson-inferenceConfig.cmake
+    jetson-inference-config.cmake
+
+  Add the installation prefix of "jetson-inference" to CMAKE_PREFIX_PATH or
+  set "jetson-inference_DIR" to a directory containing one of the above
+  files.  If "jetson-inference" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning/CMakeFiles/CMakeOutput.log".

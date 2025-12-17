@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="test_patrol_nodes">
+    <Sequence>
+      <!-- 자동 모드: 카메라 밝기 기반으로 자동 결정 (원본 mode_manager_node.py 기본값 사용) -->
+      <ManagePatrolMode mode_source="auto"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="ManagePatrolMode"
+            editable="true">
+      <input_port name="mode_source"
+                  default="auto"/>
+    </Action>
+    
+    <Condition ID="IsLidarObstacleDetected"
+               editable="true"/>
+  </TreeNodesModel>
+
+</root>

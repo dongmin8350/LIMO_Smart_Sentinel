@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="space-simulator">
+    <Parallel failure_count="1"
+              success_count="-1">
+      <CaptureCameraImage camera_topic="/camera/color/image_raw"/>
+      <DisplayYOLODetection/>
+      <Fallback>
+        <Sequence>
+          <IsDetectedSomething target_class="person"
+                               confidence_threshold="0.5"
+                               cooldown_time="0.0"
+                               iou_threshold="0.3"/>
+          <Fallback>
+            <Sequence>
+              <IsRegisteredPerson target_class="person"
+                                  similarity_threshold="0.4"
+                                  use_multi_frame="true"
+                                  top_k="3"
+                                  frame_buffer_size="5"/>
+              <SendTelegramMessage message="등록된 사용자입니다. 환영합니다!"
+                                   interval="3.0"/>
+            </Sequence>
+            <Parallel failure_count="1"
+                      success_count="-1">
+              <SendTelegramMessage message="등록되지 않은 사람이 감지되었습니다!"
+                                   interval="1.0"/>
+              <CaptureScreen send_to_telegram="false"
+                             telegram_caption=""/>
+            </Parallel>
+          </Fallback>
+        </Sequence>
+        <AlwaysSuccess/>
+      </Fallback>
+      <Sequence>
+        <ReadFireSensorFromSerial serial_port="/dev/ttyACM0"
+                                  baudrate="9600"/>
+        <PublishFireSensor fire_sensor_topic="/fire_sensor"/>
+        <UpdateFireState fire_sensor_topic="/fire_sensor"
+                         flame_threshold="1"
+                         temp_threshold="600"/>
+        <IsFireDetected/>
+        <SendTelegramMessage message="🔥 화재 감지!"
+                             interval="5.0"/>
+      </Sequence>
+      <Fallback>
+        <Repeat num_cycles="-1">
+          <Sequence>
+            <MoveToCoordinate x="-2.742107629776001"
+                              y="8.287286758422852"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="1.5886300802230835"
+                              y="8.641496658325195"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="1.7763594388961792"
+                              y="4.324768543243408"
+                              z="0.002471923828125"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="0.6498879194259644"
+                              y="4.066707611083984"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="0.1805349737405777"
+                              y="6.670821189880371"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="0.36826249957084656"
+                              y="2.049107789993286"
+                              z="-0.005340576171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="-0.9928888082504272"
+                              y="2.189875364303589"
+                              z="-0.005340576171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="-1.1102122068405151"
+                              y="6.7646684646606445"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="-2.54176926612854"
+                              y="6.694291591644287"
+                              z="-0.005340576171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="-2.2601752281188965"
+                              y="0.14881859719753265"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="1.8232808113098145"
+                              y="0.336487740278244"
+                              z="-0.001434326171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+            <MoveToCoordinate x="1.5651617050170898"
+                              y="8.383431434631348"
+                              z="-0.005340576171875"
+                              yaw="0.0"
+                              frame_id="map"
+                              action_name="/navigate_to_pose"/>
+          </Sequence>
+        </Repeat>
+      </Fallback>
+    </Parallel>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="CaptureCameraImage"
+            editable="true">
+      <input_port name="camera_topic"
+                  default="psh"/>
+    </Action>
+    <Action ID="CaptureScreen"
+            editable="true">
+      <input_port name="send_to_telegram"
+                  default="false"/>
+      <input_port name="telegram_caption"/>
+    </Action>
+    <Action ID="DisplayYOLODetection"
+            editable="true"/>
+    <Condition ID="IsDetectedSomething"
+               editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="confidence_threshold"
+                  default="0.5"/>
+      <input_port name="cooldown_time"
+                  default="10.0"/>
+      <input_port name="iou_threshold"
+                  default="0.3"/>
+    </Condition>
+    <Condition ID="IsFireDetected"
+               editable="true"/>
+    <Condition ID="IsRegisteredPerson"
+               editable="true">
+      <input_port name="target_class"
+                  default="person"/>
+      <input_port name="similarity_threshold"
+                  default="0.5"/>
+      <input_port name="use_multi_frame"
+                  default="true"/>
+      <input_port name="top_k"
+                  default="3"/>
+      <input_port name="frame_buffer_size"
+                  default="5"/>
+    </Condition>
+    <Action ID="MoveToCoordinate"
+            editable="true">
+      <input_port name="x"
+                  default="0.0"/>
+      <input_port name="y"
+                  default="0.0"/>
+      <input_port name="z"
+                  default="0.0"/>
+      <input_port name="yaw"
+                  default="0.0"/>
+      <input_port name="frame_id"
+                  default="map"/>
+      <input_port name="action_name"
+                  default="/navigate_to_pose"/>
+    </Action>
+    <Action ID="PublishFireSensor"
+            editable="true">
+      <input_port name="fire_sensor_topic"
+                  default="/fire_sensor"/>
+    </Action>
+    <Action ID="ReadFireSensorFromSerial"
+            editable="true">
+      <input_port name="serial_port"
+                  default="/dev/ttyACM0"/>
+      <input_port name="baudrate"
+                  default="9600"/>
+    </Action>
+    <Action ID="SendTelegramMessage"
+            editable="true">
+      <input_port name="message"
+                  default="사람이 감지되었습니다."/>
+      <input_port name="interval"
+                  default="3.0"/>
+    </Action>
+    <Action ID="UpdateFireState"
+            editable="true">
+      <input_port name="fire_sensor_topic"
+                  default="/fire_sensor"/>
+      <input_port name="flame_threshold"
+                  default="1"/>
+      <input_port name="temp_threshold"
+                  default="600"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

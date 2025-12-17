@@ -1,0 +1,6 @@
+[0.012s] Invoking command in '/home/psh/Downloads/ueeejjj/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psh/Downloads/ueeejjj/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j22 -l22
+[0.159s] [0mCMake Error: The current CMakeCache.txt directory /home/psh/Downloads/ueeejjj/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces/CMakeCache.txt is different than the directory /home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.159s] [0mCMake Error: The source directory "/home/wego/team_ws/psh030917/py_bt_ros_1/src/instant_messaging_interfaces" does not exist.
+[0.159s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.160s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.167s] Invoked command in '/home/psh/Downloads/ueeejjj/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psh/Downloads/ueeejjj/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces -- -j22 -l22

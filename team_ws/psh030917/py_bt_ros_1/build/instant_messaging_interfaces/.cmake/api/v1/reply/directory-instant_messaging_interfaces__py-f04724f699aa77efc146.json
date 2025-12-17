@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "instant_messaging_interfaces__py",
+		"source" : "/home/wego/team_ws/psh030917/py_bt_ros_1/build/instant_messaging_interfaces/instant_messaging_interfaces__py"
+	}
+}

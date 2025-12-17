@@ -1,0 +1,405 @@
+[0.000000] (-) TimerEvent: {}
+[0.000668] (ros_deep_learning) JobQueued: {'identifier': 'ros_deep_learning', 'dependencies': OrderedDict()}
+[0.001636] (ros_deep_learning) JobStarted: {'identifier': 'ros_deep_learning'}
+[0.021121] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'cmake'}
+[0.024322] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '/home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning', '-DCMAKE_INSTALL_PREFIX=/home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning'], 'cwd': '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', 'env': OrderedDict([('VSCODE_CWD', '/home/wego'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'wego'), ('SSH_CLIENT', '10.93.25.96 60596 22'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wego'), ('OLDPWD', '/home/wego'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-02a672d2-ecfa-4ca2-9463-a1d20d3ce39d.sock'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wego'), ('FORCE_COLOR', '0'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422325081170'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/node_modules/@vscode/ripgrep/bin/rg'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AGENT_FOLDER', '/home/wego/.cursor-server'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CURSOR_AGENT', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.93.25.96 60596 10.93.25.92 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3767-0003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099869] (-) TimerEvent: {}
+[0.152076] (ros_deep_learning) StderrLine: {'line': b'detected ROS_DISTRO=ROS_HUMBLE\n'}
+[0.173027] (ros_deep_learning) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:27 (find_package):\n'}
+[0.173457] (ros_deep_learning) StderrLine: {'line': b'  Could not find a configuration file for package "VPI" that is compatible\n'}
+[0.173609] (ros_deep_learning) StderrLine: {'line': b'  with requested version "2.0".\n'}
+[0.173766] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[0.173886] (ros_deep_learning) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[0.174005] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[0.174115] (ros_deep_learning) StderrLine: {'line': b'    /usr/lib/cmake/vpi3/vpi-config.cmake, version: 3.2.4\n'}
+[0.174224] (ros_deep_learning) StderrLine: {'line': b'    /lib/cmake/vpi3/vpi-config.cmake, version: 3.2.4\n'}
+[0.174333] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[0.174440] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[0.174545] (ros_deep_learning) StderrLine: {'line': b'\n'}
+[0.199994] (-) TimerEvent: {}
+[0.300361] (-) TimerEvent: {}
+[0.400716] (-) TimerEvent: {}
+[0.477092] (ros_deep_learning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500930] (-) TimerEvent: {}
+[0.512901] (ros_deep_learning) StderrLine: {'line': b'detected ROS2 (ament_cmake)\n'}
+[0.514801] (ros_deep_learning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.589122] (ros_deep_learning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.596232] (ros_deep_learning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601029] (-) TimerEvent: {}
+[0.612212] (ros_deep_learning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.634474] (ros_deep_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.661955] (ros_deep_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701315] (-) TimerEvent: {}
+[0.736471] (ros_deep_learning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.740199] (ros_deep_learning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801463] (-) TimerEvent: {}
+[0.901857] (-) TimerEvent: {}
+[0.950439] (ros_deep_learning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002028] (-) TimerEvent: {}
+[1.060447] (ros_deep_learning) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.102202] (-) TimerEvent: {}
+[1.122657] (ros_deep_learning) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[1.202345] (-) TimerEvent: {}
+[1.302753] (-) TimerEvent: {}
+[1.312822] (ros_deep_learning) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.402942] (-) TimerEvent: {}
+[1.410985] (ros_deep_learning) StdoutLine: {'line': b'-- Generating done\n'}
+[1.432264] (ros_deep_learning) StdoutLine: {'line': b'-- Build files have been written to: /home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning\n'}
+[1.454752] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[1.458805] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'build'}
+[1.458923] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', '--', '-j6', '-l6'], 'cwd': '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', 'env': OrderedDict([('VSCODE_CWD', '/home/wego'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'wego'), ('SSH_CLIENT', '10.93.25.96 60596 22'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wego'), ('OLDPWD', '/home/wego'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-02a672d2-ecfa-4ca2-9463-a1d20d3ce39d.sock'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wego'), ('FORCE_COLOR', '0'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422325081170'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/node_modules/@vscode/ripgrep/bin/rg'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AGENT_FOLDER', '/home/wego/.cursor-server'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CURSOR_AGENT', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.93.25.96 60596 10.93.25.92 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3767-0003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.503098] (-) TimerEvent: {}
+[1.570458] (ros_deep_learning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target imagenet\n'}
+[1.570896] (ros_deep_learning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target detectnet\n'}
+[1.571236] (ros_deep_learning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_source\n'}
+[1.582400] (ros_deep_learning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target segnet\n'}
+[1.583779] (ros_deep_learning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_output\n'}
+[1.603266] (-) TimerEvent: {}
+[1.642402] (ros_deep_learning) StdoutLine: {'line': b'[ 45%] Built target video_output\n'}
+[1.642815] (ros_deep_learning) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o\n'}
+[1.642964] (ros_deep_learning) StdoutLine: {'line': b'[ 50%] Built target segnet\n'}
+[1.643089] (ros_deep_learning) StdoutLine: {'line': b'[ 65%] Built target video_source\n'}
+[1.643538] (ros_deep_learning) StdoutLine: {'line': b'[ 85%] Built target imagenet\n'}
+[1.703463] (-) TimerEvent: {}
+[1.803919] (-) TimerEvent: {}
+[1.904377] (-) TimerEvent: {}
+[2.004818] (-) TimerEvent: {}
+[2.105248] (-) TimerEvent: {}
+[2.205633] (-) TimerEvent: {}
+[2.306013] (-) TimerEvent: {}
+[2.406443] (-) TimerEvent: {}
+[2.506886] (-) TimerEvent: {}
+[2.607342] (-) TimerEvent: {}
+[2.707758] (-) TimerEvent: {}
+[2.808220] (-) TimerEvent: {}
+[2.908726] (-) TimerEvent: {}
+[3.009205] (-) TimerEvent: {}
+[3.109686] (-) TimerEvent: {}
+[3.210178] (-) TimerEvent: {}
+[3.310598] (-) TimerEvent: {}
+[3.411014] (-) TimerEvent: {}
+[3.511424] (-) TimerEvent: {}
+[3.611853] (-) TimerEvent: {}
+[3.712254] (-) TimerEvent: {}
+[3.812691] (-) TimerEvent: {}
+[3.913087] (-) TimerEvent: {}
+[4.013495] (-) TimerEvent: {}
+[4.113894] (-) TimerEvent: {}
+[4.214323] (-) TimerEvent: {}
+[4.314733] (-) TimerEvent: {}
+[4.415140] (-) TimerEvent: {}
+[4.515565] (-) TimerEvent: {}
+[4.615975] (-) TimerEvent: {}
+[4.716392] (-) TimerEvent: {}
+[4.816851] (-) TimerEvent: {}
+[4.917253] (-) TimerEvent: {}
+[5.017657] (-) TimerEvent: {}
+[5.118060] (-) TimerEvent: {}
+[5.218460] (-) TimerEvent: {}
+[5.318860] (-) TimerEvent: {}
+[5.419261] (-) TimerEvent: {}
+[5.519671] (-) TimerEvent: {}
+[5.620076] (-) TimerEvent: {}
+[5.720481] (-) TimerEvent: {}
+[5.820919] (-) TimerEvent: {}
+[5.921319] (-) TimerEvent: {}
+[6.021710] (-) TimerEvent: {}
+[6.122106] (-) TimerEvent: {}
+[6.222500] (-) TimerEvent: {}
+[6.322888] (-) TimerEvent: {}
+[6.423296] (-) TimerEvent: {}
+[6.523701] (-) TimerEvent: {}
+[6.624105] (-) TimerEvent: {}
+[6.724507] (-) TimerEvent: {}
+[6.824955] (-) TimerEvent: {}
+[6.925351] (-) TimerEvent: {}
+[7.025748] (-) TimerEvent: {}
+[7.126158] (-) TimerEvent: {}
+[7.226554] (-) TimerEvent: {}
+[7.310656] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.312129] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.312322] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:239:105: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.312458] (ros_deep_learning) StderrLine: {'line': b'  239 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL );\n'}
+[7.312636] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         ^\n'}
+[7.312769] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.313236] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.313411] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.313532] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.313646] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.313758] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.313868] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.313973] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.314078] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:254:105: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.314186] (ros_deep_learning) StderrLine: {'line': b'  254 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL );\n'}
+[7.314294] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         ^\n'}
+[7.314400] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.314532] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.314640] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.314764] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.314873] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.314980] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.315084] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.315190] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.315293] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:271:105: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.315402] (ros_deep_learning) StderrLine: {'line': b'  271 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL );\n'}
+[7.315510] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         ^\n'}
+[7.315615] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.315721] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.315825] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.315930] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.316035] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.316139] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.316243] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.316347] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.316451] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:289:105: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.316615] (ros_deep_learning) StderrLine: {'line': b'  289 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL );\n'}
+[7.316737] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         ^\n'}
+[7.316847] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.316953] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.317059] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.317164] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.317284] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.317389] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.317495] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.317599] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.317717] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:308:105: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.317942] (ros_deep_learning) StderrLine: {'line': b'  308 |                                    nvinfer1::IInt8Calibrator* calibrator=NULL, cudaStream_t stream=NULL );\n'}
+[7.318091] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                         ^\n'}
+[7.318206] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.318315] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.318422] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.318531] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.318638] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.318743] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.318846] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.318951] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.319055] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:635:116: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.319161] (ros_deep_learning) StderrLine: {'line': b'  635 |                                     nvinfer1::IInt8Calibrator* calibrator, char** engineStream, size_t* engineSize );\n'}
+[7.319266] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                                                    ^\n'}
+[7.319390] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.319498] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.319604] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.319709] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.319815] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.319919] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.320021] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.320125] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.320245] (ros_deep_learning) StderrLine: {'line': b'/home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:644:82: warning: \xe2\x80\x98IInt8Calibrator\xe2\x80\x99 is deprecated [-Wdeprecated-declarations]\n'}
+[7.320351] (ros_deep_learning) StderrLine: {'line': b'  644 |                                            nvinfer1::IInt8Calibrator* calibrator );\n'}
+[7.320456] (ros_deep_learning) StderrLine: {'line': b'      |                                                                                  ^\n'}
+[7.320600] (ros_deep_learning) StderrLine: {'line': b'In file included from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/tensorNet.h:30,\n'}
+[7.320731] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/jetson-inference/build/aarch64/include/jetson-inference/detectNet.h:27,\n'}
+[7.320839] (ros_deep_learning) StderrLine: {'line': b'                 from /home/wego/team_ws/psh030917/nface_ws/src/ros_deep_learning/src/node_detectnet.cpp:26:\n'}
+[7.320941] (ros_deep_learning) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/NvInfer.h:7677:22: note: declared here\n'}
+[7.321043] (ros_deep_learning) StderrLine: {'line': b' 7677 | class TRT_DEPRECATED IInt8Calibrator : public IVersionedInterface\n'}
+[7.321146] (ros_deep_learning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~\n'}
+[7.326658] (-) TimerEvent: {}
+[7.426986] (-) TimerEvent: {}
+[7.527386] (-) TimerEvent: {}
+[7.627788] (-) TimerEvent: {}
+[7.728194] (-) TimerEvent: {}
+[7.828627] (-) TimerEvent: {}
+[7.929021] (-) TimerEvent: {}
+[8.029414] (-) TimerEvent: {}
+[8.129811] (-) TimerEvent: {}
+[8.230204] (-) TimerEvent: {}
+[8.330595] (-) TimerEvent: {}
+[8.430986] (-) TimerEvent: {}
+[8.531369] (-) TimerEvent: {}
+[8.631773] (-) TimerEvent: {}
+[8.732174] (-) TimerEvent: {}
+[8.832608] (-) TimerEvent: {}
+[8.933013] (-) TimerEvent: {}
+[9.033420] (-) TimerEvent: {}
+[9.133816] (-) TimerEvent: {}
+[9.234213] (-) TimerEvent: {}
+[9.334600] (-) TimerEvent: {}
+[9.434983] (-) TimerEvent: {}
+[9.535375] (-) TimerEvent: {}
+[9.635771] (-) TimerEvent: {}
+[9.736175] (-) TimerEvent: {}
+[9.836603] (-) TimerEvent: {}
+[9.936991] (-) TimerEvent: {}
+[10.037400] (-) TimerEvent: {}
+[10.137801] (-) TimerEvent: {}
+[10.238202] (-) TimerEvent: {}
+[10.338596] (-) TimerEvent: {}
+[10.439003] (-) TimerEvent: {}
+[10.539397] (-) TimerEvent: {}
+[10.639794] (-) TimerEvent: {}
+[10.740196] (-) TimerEvent: {}
+[10.840630] (-) TimerEvent: {}
+[10.941026] (-) TimerEvent: {}
+[11.041429] (-) TimerEvent: {}
+[11.141819] (-) TimerEvent: {}
+[11.242218] (-) TimerEvent: {}
+[11.342608] (-) TimerEvent: {}
+[11.443016] (-) TimerEvent: {}
+[11.543410] (-) TimerEvent: {}
+[11.643807] (-) TimerEvent: {}
+[11.744199] (-) TimerEvent: {}
+[11.844622] (-) TimerEvent: {}
+[11.945016] (-) TimerEvent: {}
+[12.045409] (-) TimerEvent: {}
+[12.145800] (-) TimerEvent: {}
+[12.246202] (-) TimerEvent: {}
+[12.346601] (-) TimerEvent: {}
+[12.447006] (-) TimerEvent: {}
+[12.547404] (-) TimerEvent: {}
+[12.647837] (-) TimerEvent: {}
+[12.748244] (-) TimerEvent: {}
+[12.848669] (-) TimerEvent: {}
+[12.949062] (-) TimerEvent: {}
+[13.049560] (-) TimerEvent: {}
+[13.149952] (-) TimerEvent: {}
+[13.250352] (-) TimerEvent: {}
+[13.350759] (-) TimerEvent: {}
+[13.451155] (-) TimerEvent: {}
+[13.551543] (-) TimerEvent: {}
+[13.651933] (-) TimerEvent: {}
+[13.752329] (-) TimerEvent: {}
+[13.852731] (-) TimerEvent: {}
+[13.953125] (-) TimerEvent: {}
+[14.053517] (-) TimerEvent: {}
+[14.153917] (-) TimerEvent: {}
+[14.254317] (-) TimerEvent: {}
+[14.354724] (-) TimerEvent: {}
+[14.455095] (-) TimerEvent: {}
+[14.555462] (-) TimerEvent: {}
+[14.655862] (-) TimerEvent: {}
+[14.756225] (-) TimerEvent: {}
+[14.856634] (-) TimerEvent: {}
+[14.957003] (-) TimerEvent: {}
+[15.057377] (-) TimerEvent: {}
+[15.157766] (-) TimerEvent: {}
+[15.258145] (-) TimerEvent: {}
+[15.358520] (-) TimerEvent: {}
+[15.458893] (-) TimerEvent: {}
+[15.559270] (-) TimerEvent: {}
+[15.659654] (-) TimerEvent: {}
+[15.760042] (-) TimerEvent: {}
+[15.860434] (-) TimerEvent: {}
+[15.960852] (-) TimerEvent: {}
+[16.061225] (-) TimerEvent: {}
+[16.161626] (-) TimerEvent: {}
+[16.262004] (-) TimerEvent: {}
+[16.362377] (-) TimerEvent: {}
+[16.462745] (-) TimerEvent: {}
+[16.563111] (-) TimerEvent: {}
+[16.663482] (-) TimerEvent: {}
+[16.763879] (-) TimerEvent: {}
+[16.864254] (-) TimerEvent: {}
+[16.964652] (-) TimerEvent: {}
+[17.065019] (-) TimerEvent: {}
+[17.165386] (-) TimerEvent: {}
+[17.265749] (-) TimerEvent: {}
+[17.366111] (-) TimerEvent: {}
+[17.466476] (-) TimerEvent: {}
+[17.566837] (-) TimerEvent: {}
+[17.667231] (-) TimerEvent: {}
+[17.767607] (-) TimerEvent: {}
+[17.867981] (-) TimerEvent: {}
+[17.968351] (-) TimerEvent: {}
+[18.068733] (-) TimerEvent: {}
+[18.169103] (-) TimerEvent: {}
+[18.269472] (-) TimerEvent: {}
+[18.369845] (-) TimerEvent: {}
+[18.470219] (-) TimerEvent: {}
+[18.570587] (-) TimerEvent: {}
+[18.670956] (-) TimerEvent: {}
+[18.771318] (-) TimerEvent: {}
+[18.871687] (-) TimerEvent: {}
+[18.972055] (-) TimerEvent: {}
+[19.072432] (-) TimerEvent: {}
+[19.172850] (-) TimerEvent: {}
+[19.273225] (-) TimerEvent: {}
+[19.373596] (-) TimerEvent: {}
+[19.473968] (-) TimerEvent: {}
+[19.574342] (-) TimerEvent: {}
+[19.674721] (-) TimerEvent: {}
+[19.775099] (-) TimerEvent: {}
+[19.875472] (-) TimerEvent: {}
+[19.975844] (-) TimerEvent: {}
+[20.076218] (-) TimerEvent: {}
+[20.176633] (-) TimerEvent: {}
+[20.277006] (-) TimerEvent: {}
+[20.377364] (-) TimerEvent: {}
+[20.477718] (-) TimerEvent: {}
+[20.578072] (-) TimerEvent: {}
+[20.678437] (-) TimerEvent: {}
+[20.778828] (-) TimerEvent: {}
+[20.879185] (-) TimerEvent: {}
+[20.979545] (-) TimerEvent: {}
+[21.079906] (-) TimerEvent: {}
+[21.180225] (-) TimerEvent: {}
+[21.280613] (-) TimerEvent: {}
+[21.380980] (-) TimerEvent: {}
+[21.481368] (-) TimerEvent: {}
+[21.581807] (-) TimerEvent: {}
+[21.682255] (-) TimerEvent: {}
+[21.782700] (-) TimerEvent: {}
+[21.883162] (-) TimerEvent: {}
+[21.983634] (-) TimerEvent: {}
+[22.084100] (-) TimerEvent: {}
+[22.184525] (-) TimerEvent: {}
+[22.285011] (-) TimerEvent: {}
+[22.351183] (ros_deep_learning) StdoutLine: {'line': b'[ 90%] Linking CXX executable detectnet\n'}
+[22.385110] (-) TimerEvent: {}
+[22.485485] (-) TimerEvent: {}
+[22.585920] (-) TimerEvent: {}
+[22.686368] (-) TimerEvent: {}
+[22.786804] (-) TimerEvent: {}
+[22.887239] (-) TimerEvent: {}
+[22.987612] (-) TimerEvent: {}
+[23.087991] (-) TimerEvent: {}
+[23.188402] (-) TimerEvent: {}
+[23.288863] (-) TimerEvent: {}
+[23.389278] (-) TimerEvent: {}
+[23.489693] (-) TimerEvent: {}
+[23.590081] (-) TimerEvent: {}
+[23.690480] (-) TimerEvent: {}
+[23.790847] (-) TimerEvent: {}
+[23.891206] (-) TimerEvent: {}
+[23.991597] (-) TimerEvent: {}
+[24.000876] (ros_deep_learning) StdoutLine: {'line': b'[100%] Built target detectnet\n'}
+[24.026563] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[24.029382] (ros_deep_learning) JobProgress: {'identifier': 'ros_deep_learning', 'progress': 'install'}
+[24.050366] (ros_deep_learning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning'], 'cwd': '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning', 'env': OrderedDict([('VSCODE_CWD', '/home/wego'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('USER', 'wego'), ('SSH_CLIENT', '10.93.25.96 60596 22'), ('LC_TIME', 'en_US.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wego'), ('OLDPWD', '/home/wego'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-02a672d2-ecfa-4ca2-9463-a1d20d3ce39d.sock'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wego'), ('FORCE_COLOR', '0'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422325081170'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/node_modules/@vscode/ripgrep/bin/rg'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/opt/ros/humble/bin:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.cursor-server/bin/b3573281c4775bfc6bba466bf6563d3d498d1070/bin/remote-cli:/home/wego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('VSCODE_AGENT_FOLDER', '/home/wego/.cursor-server'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CURSOR_AGENT', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wego/team_ws/psh030917/nface_ws/build/ros_deep_learning'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.93.25.96 60596 10.93.25.92 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3767-0003'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.067236] (ros_deep_learning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.068197] (ros_deep_learning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.069727] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/imagenet\n'}
+[24.070319] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/detectnet\n'}
+[24.070992] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/segnet\n'}
+[24.071526] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_source\n'}
+[24.071985] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/lib/ros_deep_learning/video_output\n'}
+[24.073022] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch\n'}
+[24.073699] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch\n'}
+[24.074321] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch\n'}
+[24.074811] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch\n'}
+[24.075054] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch\n'}
+[24.075632] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch\n'}
+[24.075855] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch\n'}
+[24.076215] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch\n'}
+[24.076439] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch\n'}
+[24.076691] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch\n'}
+[24.077242] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch\n'}
+[24.077599] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch\n'}
+[24.077998] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning\n'}
+[24.078386] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning\n'}
+[24.078738] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh\n'}
+[24.079090] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv\n'}
+[24.079558] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh\n'}
+[24.079914] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv\n'}
+[24.080126] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash\n'}
+[24.080333] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh\n'}
+[24.080536] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh\n'}
+[24.080781] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv\n'}
+[24.080988] (ros_deep_learning) StdoutLine: {'line': b'-- Symlinking: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv\n'}
+[24.091683] (-) TimerEvent: {}
+[24.097581] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning\n'}
+[24.098021] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake\n'}
+[24.098398] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake\n'}
+[24.098776] (ros_deep_learning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wego/team_ws/psh030917/nface_ws/install/ros_deep_learning/share/ros_deep_learning/package.xml\n'}
+[24.102043] (ros_deep_learning) CommandEnded: {'returncode': 0}
+[24.159903] (ros_deep_learning) JobEnded: {'identifier': 'ros_deep_learning', 'rc': 0}
+[24.161974] (-) EventReactorShutdown: {}
