@@ -36,8 +36,8 @@ def generate_launch_description():
         output='screen'
     )
 
-    # [중요 수정] 5. 메인 로봇 (자동 실행 끔!)
-    # "뚜둑"거리는 충돌을 막기 위해 여기서 실행하지 않고 주석(#) 처리했습니다.
+    # [중요 수정] 5. 메인 로봇 (자동 실행 끔)
+    # "뚜둑"거리는 충돌을 막기 위해 여기서 실행하지 않고 주석 처리했습니다.
     # 필요할 때 터미널에서 'python3 ~/wego_ws/main_robot.py'로 직접 실행하세요.
     
     # main_robot_process = ExecuteProcess(
@@ -50,5 +50,5 @@ def generate_launch_description():
         video_server_node,
         app_server_process,
         log_relay_process,
-        # main_robot_process  <-- 여기도 쉼표와 함께 주석 처리됨
+        # main_robot_process  
     ])

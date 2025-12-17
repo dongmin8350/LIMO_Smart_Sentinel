@@ -12,7 +12,6 @@ class LimoAppServer(Node):
         self.status_pub = self.create_publisher(String, '/to_app/status', 10)
         self.telegram_pub = self.create_publisher(String, '/to_app/telegram', 10)
         
-        # [삭제됨] 시작/정지 서비스, 모드 퍼블리셔 등 복잡한 거 다 삭제
 
         # 2. 데이터 수신 (배터리 확인용)
         self.status_sub = self.create_subscription(LimoStatus, '/limo_status', self.battery_callback, 10)
@@ -34,9 +33,9 @@ class LimoAppServer(Node):
         full_msg.data = f"로봇 작동 중... 🤖 | 배터리: {int(self.battery_percentage)}%"
         self.status_pub.publish(full_msg)
 
-    # 텔레그램 메시지 중계용 함수 (로그 중계기가 씀)
+    # 텔레그램 메시지 중계용 함수
     def send_telegram_alert(self, text):
-        pass # 사용 안 함
+        pass 
 
 def main(args=None):
     rclpy.init(args=args)

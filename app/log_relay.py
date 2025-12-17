@@ -20,15 +20,12 @@ class LogRelay(Node):
         # msg.msg 안에 실제 로그 텍스트가 들어있습니다.
         log_text = msg.msg
         
-        # [핵심] 아래 단어들이 포함된 로그만 앱으로 보냅니다.
-        # 사용자님의 스크린샷에 나온 "사람 감지", "화재" 등을 넣었습니다.
+        # 아래 단어들이 포함된 로그만 앱으로 보냅니다.
         keywords = ["사람 감지", "person detected", "화재", "Fire", "등록되지 않은"]
         
         for word in keywords:
             if word in log_text:
-                # 앱으로 전송!
                 send_msg = String()
-                # 보기 좋게 앞에 이모지 추가
                 send_msg.data = f"🚨 알림: {log_text}"
                 self.app_pub.publish(send_msg)
                 
